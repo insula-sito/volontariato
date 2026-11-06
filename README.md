@@ -22,7 +22,9 @@ Costo: zero. GitHub Actions è gratuito per i repository pubblici e Telegram è 
 | Portale europeo per i giovani (ESC) | API JSON interna del sito | ✅ attiva |
 | Liepāja 2027 | API WordPress | ✅ attiva |
 | Scambieuropei | API WordPress (ricerca) | ✅ attiva |
-| Lunaria, IVS GB, Legambiente, EstYES, Youth for Smile, LCC (lcc.lt), SCI, YouthWorksHub, Visas Iespējas | vari | 🔜 da aggiungere una alla volta |
+| Lunaria | endpoint JSON del widget di ricerca | ✅ attiva (campi baltici di solito da marzo) |
+| IVS GB | pagina HTML con la tabella dei progetti | ✅ attiva (idoneità: candidatura tramite partner italiano) |
+| Legambiente, EstYES, Youth for Smile, LCC (lcc.lt), SCI, YouthWorksHub, Visas Iespējas | vari | 🔜 da aggiungere una alla volta |
 
 Fonti escluse di proposito:
 - **Allianssi (ESC Baltic Sea)**: i giovani italiani non sono tra quelli ammessi.

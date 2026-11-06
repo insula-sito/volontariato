@@ -34,7 +34,7 @@ gruppi:
   ruoli_guida:
     etichetta: ruolo guida
     peso: 15
-    parole: [camp leader, group leader, team leader, facilitator, facilitators, facilitation,
+    parole: [camp leader, camp leaders, group leader, team leader, facilitator, facilitators, facilitation,
              animator, counsellor, counselor, capogruppo, facilitatore, animatore, coordinatore]
 
 bonus:

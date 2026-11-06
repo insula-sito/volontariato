@@ -10,7 +10,7 @@ import unicodedata
 from .models import Listing
 
 # Ordine di preferenza: in caso di unione si tengono i dati della fonte più affidabile
-SOURCE_RANK = {"eyp": 0}
+SOURCE_RANK = {"eyp": 0, "lunaria": 1}   # Lunaria: canale di candidatura per chi parte dall'Italia
 
 
 def norm_title(title: str) -> str:
