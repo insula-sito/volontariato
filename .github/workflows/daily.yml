@@ -64,7 +64,14 @@ jobs:
           if [ -n "$IN_YEAR" ]; then args+=(--year "$IN_YEAR"); fi
           for s in $IN_SOURCES; do args+=(--source "$s"); done
           if [ "$IN_WEEKLY" = "true" ]; then args+=(--weekly); fi
-          python -m baltic_watch "${args[@]}"
+          set +e
+          python -m baltic_watch "${args[@]}" 2>&1 | tee risultati.txt
+          status=${PIPESTATUS[0]}
+          set -e
+          # risultati leggibili nella pagina "Summary" dell'esecuzione
+          { echo '```'; cat risultati.txt; echo '```'; } >> "$GITHUB_STEP_SUMMARY"
+          rm -f risultati.txt
+          exit $status
 
       - name: Salva lo stato nel repository
         run: |

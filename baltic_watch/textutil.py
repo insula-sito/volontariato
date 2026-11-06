@@ -3,9 +3,12 @@ from __future__ import annotations
 
 import html
 import re
+import warnings
 from datetime import date, datetime
 
-from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup, XMLParsedAsHTMLWarning
+
+warnings.filterwarnings("ignore", category=XMLParsedAsHTMLWarning)
 
 
 def strip_html(value: str | None) -> str:
