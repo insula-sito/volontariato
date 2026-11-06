@@ -1,0 +1,49 @@
+# Filtri: un annuncio che non li passa viene scartato.
+# Modifica liberamente: il programma rilegge il file a ogni esecuzione.
+
+paesi:
+  LV:
+    nome: Lettonia
+    bandiera: "🇱🇻"
+    sinonimi: [latvia, lettonia, latvija, lettland, lettonie, letonia, latvian]
+    citta: [riga, rīga, liepāja, liepaja, daugavpils, jelgava, jūrmala, jurmala, ventspils,
+            valmiera, cēsis, cesis, sigulda, bauska, kuldīga, kuldiga, rēzekne, rezekne, tukums]
+  LT:
+    nome: Lituania
+    bandiera: "🇱🇹"
+    sinonimi: [lithuania, lituania, lietuva, litauen, lituanie, lithuanian]
+    citta: [vilnius, kaunas, klaipėda, klaipeda, šiauliai, siauliai, panevėžys, panevezys,
+            palanga, druskininkai, trakai, alytus, utena]
+  EE:
+    nome: Estonia
+    bandiera: "🇪🇪"
+    sinonimi: [estonia, eesti, estland, estonie, estonian]
+    citta: [tallinn, tartu, pärnu, parnu, narva, viljandi, haapsalu, rakvere, kuressaare,
+            võru, voru, hiiumaa, saaremaa, paide]
+
+# Finestra di disponibilità (mese-giorno). L'anno è quello "target"
+# (opzione --year; di default l'estate prossima).
+periodo:
+  inizio: "07-15"
+  fine: "09-10"
+
+# Durata in giorni (estremi inclusi)
+durata:
+  minimo: 10
+  massimo: 35
+  brevi_minimo: 5          # 5-9 giorni -> sezione "brevi, combinabili"
+  brevi_massimo: 9
+  individuale_massimo: 61  # volontariato individuale ESC: tenuto solo fino a ~2 mesi
+
+idoneita:
+  paese_residenza: IT      # deve comparire tra i paesi ammessi, se indicati
+
+eta:
+  minima: 21
+  massima: 30
+
+# Nel riepilogo del lunedì, evidenzia le scadenze entro questi giorni
+scadenze_evidenza_giorni: 14
+
+# Stati (indicati dalla fonte) che fanno scartare l'annuncio
+stati_chiusi: [closed, archive, archived, draft, full, expired]

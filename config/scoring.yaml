@@ -1,0 +1,72 @@
+# Punteggio di affinità (0-100).
+# punteggio = base + somma dei pesi dei gruppi trovati (ogni gruppo conta una
+# sola volta) + bonus - penalità, limitato tra 0 e 100.
+# Le parole chiave valgono come parole/frasi intere, senza distinguere maiuscole.
+
+base: 10
+
+gruppi:
+  bambini:
+    etichetta: bambini e ragazzi
+    peso: 25
+    parole: [children, kids, youth camp, day camp, summer camp, summer camps, teenagers, teens,
+             youngsters, pupils, schoolchildren, bambini, ragazzi, adolescenti, campo estivo,
+             campi estivi, centro estivo]
+  sport:
+    etichetta: sport e giochi
+    peso: 15
+    parole: [sport, sports, games, basketball, football, soccer, volleyball, outdoor activities,
+             outdoor games, team games, giochi, calcio, pallavolo, pallacanestro, sportive,
+             attività all'aperto]
+  eventi:
+    etichetta: eventi
+    peso: 15
+    # "host" da solo è evitato apposta: negli annunci ESC compare sempre ("host organisation")
+    parole: [festival, festivals, event, events, community event, community events, event host,
+             host events, hosting events, presenter, mc, master of ceremonies, hospitality, evento, eventi, accoglienza,
+             presentatore, conduttore, capital of culture, capitale europea della cultura]
+  lingua:
+    etichetta: inglese
+    peso: 20
+    parole: [english camp, language camp, teaching english, english teaching, english lessons,
+             english language camp, campo di inglese, campi di inglese, insegnare inglese,
+             insegnamento dell'inglese]
+  ruoli_guida:
+    etichetta: ruolo guida
+    peso: 15
+    parole: [camp leader, group leader, team leader, facilitator, facilitators, facilitation,
+             animator, counsellor, counselor, capogruppo, facilitatore, animatore, coordinatore]
+
+bonus:
+  esc:
+    etichetta: ESC
+    peso: 10
+    parole: [european solidarity corps, solidarity corps, esc, corpo europeo di solidarietà,
+             volunteering team, volunteering teams]
+  spese_coperte:
+    etichetta: spese coperte
+    peso: 10
+    parole: [board and lodging, accommodation, food, meals, travel costs, travel reimbursement,
+             reimbursed, vitto, alloggio, rimborso viaggio, rimborso delle spese di viaggio]
+  gruppo_giovani:
+    etichetta: gruppo di giovani
+    peso: 5
+    parole: [international team, international group, international volunteers, workcamp,
+             youth exchange, team of volunteers, group of volunteers, scambio giovanile,
+             gruppo internazionale, volontari internazionali]
+
+penalita:
+  lingua_obbligatoria:
+    etichetta: lingua locale obbligatoria
+    peso: 30
+    # espressioni regolari (Python), senza distinzione tra maiuscole e minuscole
+    regex:
+      - '(knowledge of|speak|speaking|fluent in|fluency in|conoscenza del(la|l'')?|parlare)\s+(the\s+)?(latvian|lithuanian|estonian|russian|lettone|lituano|estone|russo)\b[^.]{0,40}\b(required|mandatory|necessary|essential|a must|obbligatori[ao]|richiest[ao]|necessari[ao])'
+      - '\b(latvian|lithuanian|estonian|russian|lettone|lituano|estone|russo)( language)?( skills| knowledge)? (is |are )?(required|mandatory|obbligatori[ao]|richiest[ao]|a must)'
+      - 'must (be able to )?speak (latvian|lithuanian|estonian|russian)'
+  solo_manuale:
+    etichetta: solo lavori manuali
+    peso: 20
+    # applicata solo se nessuno dei "gruppi" qui sopra è stato trovato
+    parole: [construction, renovation, masonry, building work, manual work, heavy work, carpentry,
+             demolition, edilizia, ristrutturazione, lavori manuali, muratura]

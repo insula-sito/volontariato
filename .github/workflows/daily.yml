@@ -1,0 +1,79 @@
+name: Controllo giornaliero
+
+on:
+  schedule:
+    # Il cron di GitHub usa l'ora UTC. Le 7:00 di Roma sono le 05:00 UTC con
+    # l'ora legale e le 06:00 UTC con l'ora solare: partono entrambi e il
+    # programma tiene solo quello giusto (opzione --schedule).
+    - cron: "0 5 * * *"
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Prova: stampa i risultati senza inviare messaggi né salvare lo stato"
+        type: boolean
+        default: true
+      year:
+        description: "Anno target (vuoto = prossima estate; es. 2026 per provare sull'estate scorsa)"
+        type: string
+        default: ""
+      sources:
+        description: "Solo queste fonti, separate da spazio (vuoto = tutte)"
+        type: string
+        default: ""
+      weekly:
+        description: "Includi il riepilogo settimanale"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: baltic-watch
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Installa le dipendenze
+        run: pip install -r requirements.txt
+
+      - name: Controlla le fonti
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          SCHEDULE: ${{ github.event.schedule }}
+          IN_DRY_RUN: ${{ inputs.dry_run }}
+          IN_YEAR: ${{ inputs.year }}
+          IN_SOURCES: ${{ inputs.sources }}
+          IN_WEEKLY: ${{ inputs.weekly }}
+        run: |
+          args=()
+          if [ -n "$SCHEDULE" ]; then args+=(--schedule "$SCHEDULE"); fi
+          if [ "$IN_DRY_RUN" = "true" ]; then args+=(--dry-run); fi
+          if [ -n "$IN_YEAR" ]; then args+=(--year "$IN_YEAR"); fi
+          for s in $IN_SOURCES; do args+=(--source "$s"); done
+          if [ "$IN_WEEKLY" = "true" ]; then args+=(--weekly); fi
+          python -m baltic_watch "${args[@]}"
+
+      - name: Salva lo stato nel repository
+        run: |
+          if [ -n "$(git status --porcelain data/)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add data/
+            git commit -m "Aggiorna lo stato degli annunci"
+            git push
+          else
+            echo "Stato invariato."
+          fi
