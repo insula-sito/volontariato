@@ -28,7 +28,7 @@ gruppi:
   lingua:
     etichetta: inglese
     peso: 20
-    parole: [english camp, language camp, teaching english, english teaching, english lessons,
+    parole: [english camp, language camp, teaching english, teach english, english teaching, english lessons,
              english language camp, campo di inglese, campi di inglese, insegnare inglese,
              insegnamento dell'inglese]
   ruoli_guida:
@@ -64,6 +64,7 @@ penalita:
       - '(knowledge of|speak|speaking|fluent in|fluency in|conoscenza del(la|l'')?|parlare)\s+(the\s+)?(latvian|lithuanian|estonian|russian|lettone|lituano|estone|russo)\b[^.]{0,40}\b(required|mandatory|necessary|essential|a must|obbligatori[ao]|richiest[ao]|necessari[ao])'
       - '\b(latvian|lithuanian|estonian|russian|lettone|lituano|estone|russo)( language)?( skills| knowledge)? (is |are )?(required|mandatory|obbligatori[ao]|richiest[ao]|a must)'
       - 'must (be able to )?speak (latvian|lithuanian|estonian|russian)'
+      - '\b(latvian|lithuanian|estonian) only\b'
   solo_manuale:
     etichetta: solo lavori manuali
     peso: 20

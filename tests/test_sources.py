@@ -70,7 +70,7 @@ def test_ivsgb_tabella_e_dettaglio():
     assert len(rows) == 2
     assert rows[0]["country"] == "Estonia" and rows[0]["code"] == "EST 27-05"
     assert rows[0]["url"].endswith("/summer-camp-tartu/")
-    assert rows[1]["url"] == "https://ivsgb.org/vap-volunteer-projects-list/"
+    assert rows[1]["url"] == "https://ivsgb.org/vap-volunteer-projects-list/#SEEDS 1"
     info = parse_detail(IVS_DETAIL)
     assert info["fields"]["minimum age"] == "20"
     assert info["fields"]["partner"] == "EstYES"

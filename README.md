@@ -27,13 +27,16 @@ Costo: zero. GitHub Actions è gratuito per i repository pubblici e Telegram è 
 | EstYES | feed RSS dei progetti (+ pagina di dettaglio) | ✅ attiva (solo progetti in Estonia) |
 | Youth for Smile (Jaunatne smaidam) | feed RSS | ✅ attiva (solo attività in Lettonia) |
 | Legambiente | sitemap + pagine dei campi (JSON-LD), con cache in `data/cache/` | ✅ attiva (max 120 pagine al giorno: la cache si completa in pochi giorni) |
-| LCC (lcc.lt), SCI, YouthWorksHub, Visas Iespējas | vari | 🔜 da aggiungere una alla volta |
+| LCC International University (Klaipėda) | portale annunci (lcchr.catsone.com) + sezione volontari della pagina `summer-program` | ✅ attiva (avvisa quando la sezione cambia) |
+| YouthWorksHub | pagine di categoria per paese (dati Nuxt nella pagina) + dettaglio, con cache | ✅ attiva (max 40 dettagli al giorno; l'API è vietata da robots.txt e non si usa) |
+| SCI (volunteer.sci.ngo) | API GraphQL pubblica del database | ✅ attiva (idoneità: candidatura tramite SCI Italia) |
+| Visas Iespējas | API GraphQL pubblica (eventi "Voluntary work" ed "Exchange programme") | ✅ attiva (molti annunci locali in lettone: penalizzati) |
 
 Fonti escluse di proposito:
 - **Allianssi (ESC Baltic Sea)**: i giovani italiani non sono tra quelli ammessi.
 - **Database workcamp di EstYES (e-vet.org/fo)**: vietato da robots.txt. I campi di EstYES arrivano comunque tramite Lunaria e Legambiente.
 - **Laiks Jauniešiem (sito)**: offerte visibili solo con login. I loro progetti ESC sono già sul Portale europeo.
-- **workcamps.sci.ngo**: protetto da Cloudflare. Si userà il nuovo database `volunteer.sci.ngo`.
+- **workcamps.sci.ngo**: protetto da Cloudflare. Si usa il nuovo database `volunteer.sci.ngo`.
 
 Il programma rispetta i siti: una richiesta ogni 2-3 secondi per sito (o il
 `Crawl-delay` indicato in robots.txt), timeout, User-Agent descrittivo, niente

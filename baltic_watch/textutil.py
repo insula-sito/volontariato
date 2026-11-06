@@ -45,6 +45,39 @@ def detect_country(title: str, text: str, paesi_cfg: dict) -> str | None:
     return None
 
 
+# Nomi inglesi dei paesi europei e vicini -> ISO2 (per "paesi ammessi" scritti per esteso)
+COUNTRY_ISO2 = {
+    "austria": "AT", "belgium": "BE", "bulgaria": "BG", "croatia": "HR", "cyprus": "CY",
+    "czechia": "CZ", "czech republic": "CZ", "denmark": "DK", "estonia": "EE", "finland": "FI",
+    "france": "FR", "germany": "DE", "greece": "EL", "hungary": "HU", "iceland": "IS",
+    "ireland": "IE", "italy": "IT", "latvia": "LV", "liechtenstein": "LI", "lithuania": "LT",
+    "luxembourg": "LU", "malta": "MT", "netherlands": "NL", "norway": "NO", "poland": "PL",
+    "portugal": "PT", "romania": "RO", "slovakia": "SK", "slovenia": "SI", "spain": "ES",
+    "sweden": "SE", "turkey": "TR", "türkiye": "TR", "north macedonia": "MK", "serbia": "RS",
+    "albania": "AL", "armenia": "AM", "azerbaijan": "AZ", "georgia": "GE", "moldova": "MD",
+    "montenegro": "ME", "ukraine": "UA", "bosnia and herzegovina": "BA", "kosovo": "XK",
+    "united kingdom": "UK", "switzerland": "CH",
+}
+_FOREIGN_TITLE_RE = re.compile(
+    r"\b(" + "|".join(re.escape(n) for n in COUNTRY_ISO2 if n not in ("estonia", "latvia", "lithuania"))
+    + r"|abroad|europe-wide)\b", re.IGNORECASE)
+
+
+def countries_to_iso2(value) -> list[str] | None:
+    """'Austria, Italy, Spain' (o lista) -> ['AT', 'IT', 'ES']; None se vuoto."""
+    if not value:
+        return None
+    names = value if isinstance(value, list) else re.split(r"[,;\n]", str(value))
+    out = [COUNTRY_ISO2.get(n.strip().lower()) for n in names if n and n.strip()]
+    out = [c for c in out if c]
+    return out or None
+
+
+def mentions_foreign_country(title: str) -> bool:
+    """True se il titolo nomina un paese non baltico (es. 'Volunteer in Slovenia')."""
+    return bool(_FOREIGN_TITLE_RE.search(title or ""))
+
+
 def country_from_name(name: str | None, paesi_cfg: dict) -> str | None:
     if not name:
         return None

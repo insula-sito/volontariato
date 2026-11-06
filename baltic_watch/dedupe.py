@@ -22,8 +22,17 @@ def norm_code(code: str) -> str:
     return re.sub(r"[^A-Z0-9]", "", code.upper())
 
 
+def norm_url(url: str) -> str:
+    u = re.sub(r"^https?://(www\.)?", "", url.strip().lower())
+    return u.rstrip("/")
+
+
 def keys_for(listing: Listing) -> set[str]:
     keys = {f"id:{listing.id}"}
+    # stesso indirizzo (es. YouthWorksHub riporta il link originale del Portale europeo)
+    for u in [listing.url, *listing.url_alternativi]:
+        if u:
+            keys.add(f"url:{norm_url(u)}")
     if listing.codice_progetto:
         keys.add(f"code:{norm_code(listing.codice_progetto)}")
     title = norm_title(listing.titolo or "")

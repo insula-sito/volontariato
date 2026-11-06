@@ -37,7 +37,8 @@ def parse_list(html: str) -> list[dict]:
             "post_id": item.get("data-post-id") or vals[6],
             "name": vals[0], "country": vals[1], "work": vals[2],
             "start": vals[3], "end": vals[4], "vols": vals[5], "code": vals[6],
-            "url": link["href"] if link else LIST_URL,
+            # senza link: indirizzo della lista + codice, per restare univoco
+            "url": link["href"] if link else f"{LIST_URL}#{vals[6] or item.get('data-post-id')}",
         })
     return rows
 
@@ -94,7 +95,7 @@ class IVSGBSource(Source):
         return out
 
     def enrich(self, listing: Listing) -> None:
-        if listing.url == LIST_URL:
+        if listing.url.startswith(LIST_URL):
             return
         info = parse_detail(self.http.get(listing.url).text)
         f = info["fields"]
