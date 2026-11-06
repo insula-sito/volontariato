@@ -96,6 +96,9 @@ class LCCSource(Source):
                 organizzazione="LCC International University", paese="LT",
                 testo=testo + "\nTeach English to children at the kids summer camp.",
                 tipo="Volontariato in un campo estivo di inglese",
+                # codice = impronta del testo: se la sezione cambia è un annuncio nuovo
+                # (senza, il titolo sempre uguale lo farebbe sembrare "già visto")
+                codice_progetto=f"LCC-SUMMER-{digest}",
             ))
         self.raw_count = len(jobs) + (1 if section else 0)
         return out

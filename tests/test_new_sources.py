@@ -133,3 +133,16 @@ def test_utilita_paesi():
     assert countries_to_iso2("") is None
     assert mentions_foreign_country("Volunteer in Slovenia")
     assert not mentions_foreign_country("Youth Camp in Latvia")
+
+
+def test_lcc_sezione_modificata_e_nuovo_annuncio(tmp_path):
+    from baltic_watch.dedupe import keys_for
+    from baltic_watch.state import State
+    st = State(tmp_path / "seen.json")
+    t = "LCC Klaipėda: volontariato nei campi estivi di inglese per bambini"
+    old = Listing(id="lcc:summer:aaa", fonte="lcc", titolo=t, url="https://lcc.lt/summer-program#aaa",
+                  paese="LT", codice_progetto="LCC-SUMMER-aaa")
+    new = Listing(id="lcc:summer:bbb", fonte="lcc", titolo=t, url="https://lcc.lt/summer-program#bbb",
+                  paese="LT", codice_progetto="LCC-SUMMER-bbb")
+    assert st.upsert(old, keys_for(old), 55, "x", "principale", [], TODAY)
+    assert st.upsert(new, keys_for(new), 55, "x", "principale", [], TODAY)   # nuovo avviso
