@@ -5,9 +5,10 @@ che eredita da Source, implementa fetch() e registrala in sources/__init__.py.
 """
 from __future__ import annotations
 
+import json
 from datetime import date
 
-from ..config import Config
+from ..config import ROOT, Config
 from ..http import PoliteSession
 from ..models import Listing
 
@@ -34,4 +35,24 @@ class Source:
     def enrich(self, listing: Listing) -> None:
         """Facoltativo: completa un annuncio NUOVO che ha passato i filtri
         (es. leggendo la pagina di dettaglio). Chiamato solo quando serve."""
+        return None
+
+    # --- cache facoltativa su disco (data/cache/<nome>.json) -------------------
+    @property
+    def cache_path(self):
+        return ROOT / "data" / "cache" / f"{self.name}.json"
+
+    def load_cache(self) -> dict:
+        try:
+            return json.loads(self.cache_path.read_text(encoding="utf-8"))
+        except (FileNotFoundError, ValueError):
+            return {}
+
+    def save_cache(self, data: dict) -> None:
+        self.cache_path.parent.mkdir(parents=True, exist_ok=True)
+        self.cache_path.write_text(json.dumps(data, ensure_ascii=False, indent=0, sort_keys=True) + "\n",
+                                   encoding="utf-8")
+
+    def finish(self, save: bool) -> None:
+        """Chiamato a fine esecuzione: save=False con --dry-run."""
         return None

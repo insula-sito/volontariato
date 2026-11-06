@@ -172,6 +172,12 @@ def run(argv: list[str] | None = None) -> int:
         if not dry_run:
             state.data["ultimo_riepilogo"] = today.isoformat()
 
+    for src in sources.values():
+        try:
+            src.finish(save=not dry_run)
+        except Exception as exc:
+            log.warning("Chiusura della fonte %s non riuscita: %s", src.name, exc)
+
     if not dry_run:
         state.data["ultima_esecuzione"] = today.isoformat()
         state.prune(today)
