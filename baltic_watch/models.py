@@ -23,6 +23,7 @@ class Listing:
     eta_min: int | None = None
     eta_max: int | None = None
     stato: str | None = None                  # open / closed / full / ... se la fonte lo indica
+    durata_indicata: int | None = None        # giorni, se il testo dice "per 12 mesi", "2 settimane"...
     fonti: list[str] = field(default_factory=list)
     url_alternativi: list[str] = field(default_factory=list)
 
@@ -35,7 +36,7 @@ class Listing:
         """Durata in giorni, estremi inclusi."""
         if self.inizio and self.fine:
             return (self.fine - self.inizio).days + 1
-        return None
+        return self.durata_indicata
 
     @property
     def date_testo(self) -> str:

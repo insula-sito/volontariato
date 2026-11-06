@@ -116,3 +116,17 @@ def test_stato_e_salute(tmp_path):
     assert "di nuovo" in st.record_health("eyp", True, 5, None, TODAY)
     st.save()
     assert State(tmp_path / "seen.json").find({"id:x:1"}) == "x:1"
+
+
+def test_durata_indicata_e_dedupe_senza_date():
+    from baltic_watch.textutil import parse_duration_hint
+    assert parse_duration_hint("ESC in Polonia per circa 3 mesi") == 90
+    assert parse_duration_hint("progetto di 2 settimane a Riga") == 14
+    assert parse_duration_hint("giovani 18-30 anni") is None
+    cfg = load_config(2027)
+    lungo = _listing(inizio=None, fine=None, durata_indicata=360)
+    assert not evaluate(lungo, cfg, TODAY).keep
+    t = "Liepāja 2027 Calls for Volunteers to Join the Programme"
+    a = _listing(id="l:1", fonte="l", titolo=t, inizio=None, fine=None)
+    b = _listing(id="l:2", fonte="l", titolo=t, inizio=None, fine=None, url="https://example.org/2")
+    assert len(merge([a, b])) == 1

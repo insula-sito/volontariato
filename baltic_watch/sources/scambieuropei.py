@@ -10,7 +10,8 @@ import re
 from datetime import timedelta
 
 from ..models import Listing
-from ..textutil import detect_country, find_date_ranges, parse_age, pick_range, strip_html
+from ..textutil import (detect_country, find_date_ranges, parse_age, parse_duration_hint,
+                        pick_range, strip_html)
 from .base import Source
 
 API = "https://www.scambieuropei.info/wp-json/wp/v2/posts"
@@ -40,13 +41,16 @@ class ScambiEuropeiSource(Source):
         for post in posts.values():
             title = strip_html(post["title"]["rendered"])
             body = strip_html(post.get("content", {}).get("rendered"))
-            if not RELEVANT_RE.search(f"{title}\n{body}"):
+            if not RELEVANT_RE.search(f"{title}\n{body[:800]}"):
                 continue  # stage, lavori, concorsi: non è volontariato
-            country = detect_country(title, body, self.cfg.paesi)
+            # il paese baltico deve essere nel titolo: altrimenti di solito è solo
+            # un paese partner (es. scambio in Italia con gruppi lettoni)
+            country = detect_country(title, "", self.cfg.paesi)
             if not country:
                 continue
             start, end = pick_range(find_date_ranges(f"{title}\n{body}", self.cfg.year), self.cfg.year)
             lo, hi = parse_age(body)
+            durata = None if start else (parse_duration_hint(title) or parse_duration_hint(body[:1500]))
             out.append(Listing(
                 id=f"{self.name}:{post['id']}",
                 fonte=self.name,
@@ -58,5 +62,6 @@ class ScambiEuropeiSource(Source):
                 testo=body,
                 eta_min=lo,
                 eta_max=hi,
+                durata_indicata=durata,
             ))
         return out

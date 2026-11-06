@@ -26,8 +26,12 @@ def keys_for(listing: Listing) -> set[str]:
     keys = {f"id:{listing.id}"}
     if listing.codice_progetto:
         keys.add(f"code:{norm_code(listing.codice_progetto)}")
-    if listing.inizio and listing.fine and listing.titolo:
-        keys.add(f"td:{norm_title(listing.titolo)}|{listing.inizio}|{listing.fine}")
+    title = norm_title(listing.titolo or "")
+    if listing.inizio and listing.fine and title:
+        keys.add(f"td:{title}|{listing.inizio}|{listing.fine}")
+    elif len(title) >= 25:
+        # senza date: stesso titolo (abbastanza lungo) = stesso annuncio
+        keys.add(f"t:{title}")
     return keys
 
 

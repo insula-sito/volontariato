@@ -180,6 +180,23 @@ def parse_dmy(value: str | None) -> date | None:
     return _safe(_year(m.group(3), 2000), int(m.group(2)), int(m.group(1)))
 
 
+_DURATION = re.compile(
+    r"(?<![\d-])(\d{1,3})\s*(mesi|mese|months?|settimane|settimana|weeks?|giorni|days)\b",
+    re.IGNORECASE,
+)
+_UNIT_DAYS = {"mes": 30, "mon": 30, "set": 7, "wee": 7, "gio": 1, "day": 1}
+
+
+def parse_duration_hint(text: str) -> int | None:
+    """Durata indicata a parole, es. "per 12 mesi" -> 360, "2 settimane" -> 14."""
+    for m in _DURATION.finditer(text or ""):
+        n = int(m.group(1))
+        days = n * _UNIT_DAYS[m.group(2).lower()[:3]]
+        if 3 <= days <= 800:
+            return days
+    return None
+
+
 # --------------------------------------------------------------------------
 # Età
 # --------------------------------------------------------------------------
