@@ -10,7 +10,8 @@ considerano in Lettonia salvo diversa indicazione nel testo.
 from __future__ import annotations
 
 from ..models import Listing
-from ..textutil import detect_country, mentions_foreign_country, parse_iso, strip_html
+from ..textutil import (detect_country, flag_countries, mentions_foreign_country, parse_iso,
+                        strip_html, to_text)
 from .base import Source
 
 API = "https://api.visasiespejas.lv/graphql"
@@ -42,11 +43,14 @@ class VisasIespejasSource(Source):
 
         out = []
         for e in events:
-            title = strip_html(e.get("name"))
+            title = strip_html(to_text(e.get("name")))
             if e.get("online") or mentions_foreign_country(title):
                 continue
             desc = strip_html(e.get("description"))
-            where = " ".join(filter(None, [e.get("city"), e.get("placeName")]))
+            flags = flag_countries(f"{title} {desc[:400]}")
+            if flags and not flags & {"LV", "LT", "EE"}:
+                continue        # es. "🇮🇹" a inizio descrizione: attività all'estero
+            where = " ".join(filter(None, [to_text(e.get("city")), to_text(e.get("placeName"))]))
             paese = detect_country(f"{title} {where}", desc, self.cfg.paesi) or "LV"
             langs = [l.lower() for l in (e.get("language") or [])]
             extra = []
@@ -59,7 +63,7 @@ class VisasIespejasSource(Source):
                 fonte=self.name,
                 titolo=title,
                 url=SITE.format(slug=e["slug"]),
-                organizzazione=(e.get("organization") or {}).get("name"),
+                organizzazione=to_text((e.get("organization") or {}).get("name")) or None,
                 paese=paese,
                 inizio=parse_iso(e.get("startTime")),
                 fine=parse_iso(e.get("endTime")),

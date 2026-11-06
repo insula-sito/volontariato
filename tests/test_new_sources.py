@@ -72,11 +72,15 @@ def test_nuxt_e_youthworkshub(tmp_path, monkeypatch):
 
 
 def test_lcc():
-    jobs_html = """<a href="/careers/38214/jobs/1-Academic-Vice-President">Academic Vice President</a>
-                   <a href="/careers/38214/jobs/2-Summer-Camp-Volunteer">Summer Camp Volunteer</a>"""
+    jobs_html = """<a href="/careers/38214/jobs/1-Faculty"><div>Faculty in International Relations</div>
+                   <div>Education</div><div>Klaipėda, Lithuania</div></a>
+                   <a href="/careers/38214/jobs/2-Summer-Camp-Volunteer"><div>Summer Camp Volunteer</div>
+                   <div>Education</div></a>"""
     jobs = parse_jobs(jobs_html)
-    assert [j["title"] for j in jobs] == ["Academic Vice President", "Summer Camp Volunteer"]
+    assert [j["title"] for j in jobs] == ["Faculty in International Relations", "Summer Camp Volunteer"]
     assert jobs[1]["url"] == "https://lcchr.catsone.com/careers/38214/jobs/2-Summer-Camp-Volunteer"
+    from baltic_watch.sources.lcc import JOB_RE
+    assert not JOB_RE.search(jobs[0]["title"]) and JOB_RE.search(jobs[1]["title"])
     page = """<div><h2>Internship and volunteer opportunities</h2><p>Volunteer at kids camp</p>
               <p>Teach English to children</p><h2>Application</h2><p>Deadline</p></div>"""
     sec = summer_section(page)
@@ -112,10 +116,14 @@ def test_visasiespejas():
          "language": [], "category": {"slug": "brivpratigi"}, "organization": None},
         {"id": "c", "name": "Meklējam brīvprātīgos", "slug": "lv", "startTime": "2027-08-01T10:00:00Z",
          "endTime": "2027-08-12T10:00:00Z", "online": False, "description": "Rīgā", "language": ["lv"],
-         "category": {"slug": "brivpratigi"}, "organization": None}]}}
+         "category": {"slug": "brivpratigi"}, "organization": None},
+        {"id": "d", "name": "Jaunatnes darbinieku mobilitāte", "slug": "it", "startTime": "2027-08-01T10:00:00Z",
+         "endTime": "2027-08-12T10:00:00Z", "online": False, "city": None, "placeName": None,
+         "description": {"blocks": [{"key": "x", "text": "☀️🇮🇹 Ja esi vecumā no 18 gadiem"}], "entityMap": {}},
+         "language": ["en"], "category": {"slug": "exchange-programme"}, "organization": {"name": "Org"}}]}}
     src = VisasIespejasSource(FakeHTTP({"graphql": payload}), load_config(2027), TODAY, historical=False)
     got = {l.id: l for l in src.fetch()}
-    assert set(got) == {"visasiespejas:a", "visasiespejas:c"}     # la Slovenia è esclusa
+    assert set(got) == {"visasiespejas:a", "visasiespejas:c"}     # Slovenia e Italia (🇮🇹) escluse
     assert got["visasiespejas:a"].paese == "LV"
     assert "latvian only" in got["visasiespejas:c"].testo
 

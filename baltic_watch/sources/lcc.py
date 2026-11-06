@@ -24,7 +24,9 @@ from .base import Source
 CAREERS = "https://lcchr.catsone.com/careers/38214"
 SUMMER = "https://lcc.lt/summer-program"
 DAY_CAMPS = ["https://lcc.lt/day-camp-2-5th-graders", "https://lcc.lt/day-camp-5-8th-graders"]
-JOB_RE = re.compile(r"volunt|camp|counsel|intern|summer|youth|english teach|teaching assistant", re.IGNORECASE)
+JOB_RE = re.compile(  # parole intere: "intern" non deve trovare "International"
+    r"\b(volunteer\w*|camps?|counsel+ors?|interns?|internships?|summer|youth|"
+    r"english teach\w*|teaching assistants?)\b", re.IGNORECASE)
 SECTION_START = "Internship and volunteer opportunities"
 SECTION_END_RE = re.compile(r"\n\s*(Application|Apply now|Costs|FAQ|Contact)\b")
 
@@ -34,7 +36,9 @@ def parse_jobs(html: str) -> list[dict]:
     jobs = {}
     for a in soup.find_all("a", href=re.compile(r"/careers/\d+/jobs/(\d+)")):
         num = re.search(r"/jobs/(\d+)", a["href"]).group(1)
-        title = normalize_space(a.get_text(" "))
+        # il link racchiude tutta la riga (titolo, categoria, luogo): teniamo il titolo
+        cells = [normalize_space(t) for t in a.get_text("\n").splitlines() if t.strip()]
+        title = cells[0] if cells else ""
         if title:
             jobs[num] = {"id": num, "title": title, "url": urljoin(CAREERS, a["href"])}
     return list(jobs.values())
@@ -72,7 +76,7 @@ class LCCSource(Source):
             out.append(Listing(
                 id=f"{self.name}:job:{j['id']}", fonte=self.name, titolo=f"LCC: {j['title']}",
                 url=j["url"], organizzazione="LCC International University", paese="LT",
-                testo=j["title"], tipo="Annuncio LCC (campi estivi / volontariato)",
+                testo=j["title"], tipo="Annuncio LCC",
             ))
 
         section = summer_section(self.http.get(SUMMER).text)

@@ -11,7 +11,30 @@ from bs4 import BeautifulSoup, XMLParsedAsHTMLWarning
 warnings.filterwarnings("ignore", category=XMLParsedAsHTMLWarning)
 
 
-def strip_html(value: str | None) -> str:
+def to_text(value) -> str:
+    """Testo da valori non uniformi delle API: stringhe, dizionari multilingua
+    ({"EN": ..., "LV": ...}), liste o strutture annidate (rich text)."""
+    if value is None:
+        return ""
+    if isinstance(value, str):
+        return value
+    if isinstance(value, dict):
+        if isinstance(value.get("blocks"), list):        # rich text Draft.js
+            return "\n".join(str(b.get("text", "")) for b in value["blocks"] if isinstance(b, dict))
+        for lang in ("EN", "en", "LV", "lv"):
+            if isinstance(value.get(lang), str) and value[lang].strip():
+                return value[lang]
+        if isinstance(value.get("text"), str):
+            return value["text"]
+        return " ".join(to_text(v) for v in value.values())
+    if isinstance(value, (list, tuple)):
+        return " ".join(to_text(v) for v in value)
+    return str(value)
+
+
+def strip_html(value) -> str:
+    if not isinstance(value, str):
+        value = to_text(value)
     if not value:
         return ""
     text = BeautifulSoup(value, "html.parser").get_text(" ")
@@ -71,6 +94,14 @@ def countries_to_iso2(value) -> list[str] | None:
     out = [COUNTRY_ISO2.get(n.strip().lower()) for n in names if n and n.strip()]
     out = [c for c in out if c]
     return out or None
+
+
+_FLAG_RE = re.compile("[\U0001F1E6-\U0001F1FF]{2}")
+
+
+def flag_countries(text: str) -> set[str]:
+    """Codici ISO2 delle bandiere emoji nel testo (🇱🇻 -> 'LV')."""
+    return {"".join(chr(ord(c) - 0x1F1E6 + 65) for c in m) for m in _FLAG_RE.findall(text or "")}
 
 
 def mentions_foreign_country(title: str) -> bool:
