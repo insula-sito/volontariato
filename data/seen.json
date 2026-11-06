@@ -1,0 +1,42 @@
+{
+ "annunci": {
+  "lcc:summer:ee59f340fe": {
+   "avvisi": [
+    "date da verificare",
+    "idoneità da verificare"
+   ],
+   "chiavi": [
+    "id:lcc:summer:ee59f340fe",
+    "t:lcc klaipeda volontariato nei campi estivi di inglese per bambini",
+    "url:lcc.lt/summer-program#ee59f340fe"
+   ],
+   "durata": null,
+   "fine": null,
+   "fonti": [
+    "lcc"
+   ],
+   "inizio": null,
+   "motivo": "bambini e ragazzi (children) · inglese (teach english)",
+   "organizzazione": "LCC International University",
+   "paese": "LT",
+   "primo_avvistamento": "2026-11-06",
+   "punteggio": 55,
+   "scadenza": null,
+   "sezione": "principale",
+   "titolo": "LCC Klaipėda: volontariato nei campi estivi di inglese per bambini",
+   "ultimo_avvistamento": "2026-11-06",
+   "url": "https://lcc.lt/summer-program#ee59f340fe"
+  }
+ },
+ "salute": {
+  "lcc": {
+   "allertato": false,
+   "problemi_consecutivi": 0,
+   "ultimi_risultati": 8,
+   "ultimo_ok": "2026-11-06"
+  }
+ },
+ "ultima_esecuzione": "2026-11-06",
+ "ultimo_riepilogo": null,
+ "versione": 1
+}
