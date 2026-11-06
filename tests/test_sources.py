@@ -86,3 +86,12 @@ def test_stesso_campo_lunaria_e_ivsgb_unito_per_codice():
     merged = merge([ivs, lun])
     assert len(merged) == 1
     assert merged[0].fonte == "lunaria" and set(merged[0].fonti) == {"lunaria", "ivsgb"}
+
+
+def test_tutte_le_fonti_registrate():
+    import pkgutil
+    import baltic_watch.sources as pkg
+    from baltic_watch.sources import SOURCES
+    modules = {m.name for m in pkgutil.iter_modules(pkg.__path__)} - {"base"}
+    registered = {cls.__module__.rsplit(".", 1)[-1] for cls in SOURCES.values()}
+    assert modules == registered, f"moduli non registrati: {modules - registered}"
