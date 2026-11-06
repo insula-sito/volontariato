@@ -50,6 +50,7 @@ jobs:
 
       - name: Controlla le fonti
         env:
+          PYTHONUNBUFFERED: "1"   # log visibile in tempo reale
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           SCHEDULE: ${{ github.event.schedule }}
