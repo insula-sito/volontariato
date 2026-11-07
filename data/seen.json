@@ -6,6 +6,7 @@
     "idoneità da verificare"
    ],
    "chiavi": [
+    "code:LCCSUMMEREE59F340FE",
     "id:lcc:summer:ee59f340fe",
     "t:lcc klaipeda volontariato nei campi estivi di inglese per bambini",
     "url:lcc.lt/summer-program#ee59f340fe"
@@ -24,19 +25,330 @@
    "scadenza": null,
    "sezione": "principale",
    "titolo": "LCC Klaipėda: volontariato nei campi estivi di inglese per bambini",
-   "ultimo_avvistamento": "2026-11-06",
+   "ultimo_avvistamento": "2026-11-07",
    "url": "https://lcc.lt/summer-program#ee59f340fe"
+  },
+  "liepaja2027:11901": {
+   "avvisi": [
+    "date da verificare",
+    "idoneità da verificare"
+   ],
+   "chiavi": [
+    "id:liepaja2027:11901",
+    "t:liepaja 2027 opens doors for new volunteers to join the team",
+    "url:liepaja2027.lv/en/news/liepaja-2027-opens-doors-for-new-volunteers-to-join-the-team",
+    "url:liepaja2027.lv/en/participation/liepaja-2027-opens-doors-for-new-volunteers-to-join-the-team"
+   ],
+   "durata": null,
+   "fine": null,
+   "fonti": [
+    "liepaja2027"
+   ],
+   "inizio": null,
+   "motivo": "eventi (festival) · gruppo di giovani",
+   "organizzazione": "Liepāja 2027",
+   "paese": "LV",
+   "primo_avvistamento": "2026-11-07",
+   "punteggio": 30,
+   "scadenza": null,
+   "sezione": "principale",
+   "titolo": "Liepāja 2027 Opens Doors for New Volunteers to Join the Team",
+   "ultimo_avvistamento": "2026-11-07",
+   "url": "https://liepaja2027.lv/en/news/liepaja-2027-opens-doors-for-new-volunteers-to-join-the-team/"
+  },
+  "liepaja2027:13704": {
+   "avvisi": [
+    "date da verificare",
+    "idoneità da verificare"
+   ],
+   "chiavi": [
+    "id:liepaja2027:13704",
+    "t:liepaja 2027 prepares to welcome volunteers from across europe",
+    "url:liepaja2027.lv/en/news/liepaja-2027-prepares-to-welcome-volunteers-from-across-europe",
+    "url:liepaja2027.lv/en/participation/liepaja-2027-prepares-to-welcome-volunteers-from-across-europe"
+   ],
+   "durata": null,
+   "fine": null,
+   "fonti": [
+    "liepaja2027"
+   ],
+   "inizio": null,
+   "motivo": "eventi (festival) · ESC · gruppo di giovani",
+   "organizzazione": "Liepāja 2027",
+   "paese": "LV",
+   "primo_avvistamento": "2026-11-07",
+   "punteggio": 40,
+   "scadenza": null,
+   "sezione": "principale",
+   "titolo": "Liepāja 2027 prepares to welcome volunteers from across Europe",
+   "ultimo_avvistamento": "2026-11-07",
+   "url": "https://liepaja2027.lv/en/news/liepaja-2027-prepares-to-welcome-volunteers-from-across-europe/"
+  },
+  "liepaja2027:16191": {
+   "avvisi": [
+    "date da verificare",
+    "idoneità da verificare"
+   ],
+   "chiavi": [
+    "id:liepaja2027:16191",
+    "t:liepaja 2027 is looking for new team members lawyer and volunteer coordinator assistant",
+    "url:liepaja2027.lv/en/news/liepaja-2027-is-looking-for-new-team-members-lawyer-and-volunteer-coordinator-assistant"
+   ],
+   "durata": null,
+   "fine": null,
+   "fonti": [
+    "liepaja2027"
+   ],
+   "inizio": null,
+   "motivo": "eventi (festival)",
+   "organizzazione": "Liepāja 2027",
+   "paese": "LV",
+   "primo_avvistamento": "2026-11-07",
+   "punteggio": 25,
+   "scadenza": null,
+   "sezione": "principale",
+   "titolo": "Liepāja 2027 is looking for new team members – Lawyer and Volunteer Coordinator Assistant",
+   "ultimo_avvistamento": "2026-11-07",
+   "url": "https://liepaja2027.lv/en/news/liepaja-2027-is-looking-for-new-team-members-lawyer-and-volunteer-coordinator-assistant/"
+  },
+  "liepaja2027:16584": {
+   "avvisi": [
+    "date da verificare",
+    "idoneità da verificare"
+   ],
+   "chiavi": [
+    "id:liepaja2027:16584",
+    "t:liepaja 2027 calls for volunteers to join mission un rest programme",
+    "url:liepaja2027.lv/en/news/liepaja-2027-calls-for-volunteers-to-join-mission-unrest-programme",
+    "url:liepaja2027.lv/en/participation/liepaja-2027-calls-for-volunteers-to-join-mission-unrest-programme"
+   ],
+   "durata": null,
+   "fine": null,
+   "fonti": [
+    "liepaja2027"
+   ],
+   "inizio": null,
+   "motivo": "eventi (festival)",
+   "organizzazione": "Liepāja 2027",
+   "paese": "LV",
+   "primo_avvistamento": "2026-11-07",
+   "punteggio": 25,
+   "scadenza": null,
+   "sezione": "principale",
+   "titolo": "Liepāja 2027 Calls for Volunteers to Join “Mission (Un)rest” Programme",
+   "ultimo_avvistamento": "2026-11-07",
+   "url": "https://liepaja2027.lv/en/news/liepaja-2027-calls-for-volunteers-to-join-mission-unrest-programme/"
+  },
+  "scambieuropei:163645": {
+   "avvisi": [
+    "date da verificare",
+    "idoneità da verificare"
+   ],
+   "chiavi": [
+    "id:scambieuropei:163645",
+    "t:16 progetti esc a tallin estonia a tema educativo e sociale",
+    "url:scambieuropei.info/corpo-europeo-solidarieta-tallin"
+   ],
+   "durata": null,
+   "fine": null,
+   "fonti": [
+    "scambieuropei"
+   ],
+   "inizio": null,
+   "motivo": "bambini e ragazzi (bambini) · eventi (eventi) · ESC · spese coperte",
+   "organizzazione": null,
+   "paese": "EE",
+   "primo_avvistamento": "2026-11-07",
+   "punteggio": 70,
+   "scadenza": null,
+   "sezione": "principale",
+   "titolo": "16 Progetti ESC a Tallin, Estonia, a tema educativo e sociale",
+   "ultimo_avvistamento": "2026-11-07",
+   "url": "https://www.scambieuropei.info/corpo-europeo-solidarieta-tallin/"
+  },
+  "scambieuropei:237682": {
+   "avvisi": [
+    "date da verificare",
+    "idoneità da verificare"
+   ],
+   "chiavi": [
+    "id:scambieuropei:237682",
+    "t:esc in lituania svolgendo attivita sociali presso kaunas house of generations",
+    "url:scambieuropei.info/corpo-europeo-solidarieta-lituania-attivita-sociali"
+   ],
+   "durata": null,
+   "fine": null,
+   "fonti": [
+    "scambieuropei"
+   ],
+   "inizio": null,
+   "motivo": "bambini e ragazzi (bambini) · eventi (eventi) · ESC · spese coperte",
+   "organizzazione": null,
+   "paese": "LT",
+   "primo_avvistamento": "2026-11-07",
+   "punteggio": 70,
+   "scadenza": null,
+   "sezione": "principale",
+   "titolo": "ESC in Lituania svolgendo attività sociali presso Kaunas House of Generations",
+   "ultimo_avvistamento": "2026-11-07",
+   "url": "https://www.scambieuropei.info/corpo-europeo-solidarieta-lituania-attivita-sociali/"
+  },
+  "scambieuropei:248490": {
+   "avvisi": [
+    "date da verificare",
+    "idoneità da verificare"
+   ],
+   "chiavi": [
+    "id:scambieuropei:248490",
+    "t:corpo europeo di solidarieta a riga per organizzare laboratori e attivita interculturali",
+    "url:scambieuropei.info/corpo-europeo-solidarieta-riga-laboratori-attivita-interculturali"
+   ],
+   "durata": null,
+   "fine": null,
+   "fonti": [
+    "scambieuropei"
+   ],
+   "inizio": null,
+   "motivo": "sport e giochi (sport) · eventi (eventi) · ESC · spese coperte",
+   "organizzazione": null,
+   "paese": "LV",
+   "primo_avvistamento": "2026-11-07",
+   "punteggio": 60,
+   "scadenza": null,
+   "sezione": "principale",
+   "titolo": "Corpo europeo di solidarietà a Riga per organizzare laboratori e attività interculturali",
+   "ultimo_avvistamento": "2026-11-07",
+   "url": "https://www.scambieuropei.info/corpo-europeo-solidarieta-riga-laboratori-attivita-interculturali/"
+  },
+  "scambieuropei:256269": {
+   "avvisi": [
+    "date da verificare",
+    "idoneità da verificare"
+   ],
+   "chiavi": [
+    "id:scambieuropei:256269",
+    "t:esc a riga promuovendo attivita culturali e iniziative giovanili",
+    "url:scambieuropei.info/esc-rigaattivita-culturali-iniziative-giovanili"
+   ],
+   "durata": null,
+   "fine": null,
+   "fonti": [
+    "scambieuropei"
+   ],
+   "inizio": null,
+   "motivo": "sport e giochi (sport) · eventi (eventi) · ESC · spese coperte",
+   "organizzazione": null,
+   "paese": "LV",
+   "primo_avvistamento": "2026-11-07",
+   "punteggio": 60,
+   "scadenza": null,
+   "sezione": "principale",
+   "titolo": "ESC a Riga promuovendo attività culturali e iniziative giovanili",
+   "ultimo_avvistamento": "2026-11-07",
+   "url": "https://www.scambieuropei.info/esc-rigaattivita-culturali-iniziative-giovanili/"
+  },
+  "scambieuropei:258784": {
+   "avvisi": [
+    "idoneità da verificare"
+   ],
+   "chiavi": [
+    "id:scambieuropei:258784",
+    "td:democracy residency european dream residenza in lettonia dal 3 al 23 agosto 2027|2027-08-03|2027-08-23",
+    "url:scambieuropei.info/democracy-residency-european-dream-residenza-lettonia-agosto-2027"
+   ],
+   "durata": 21,
+   "fine": "2027-08-23",
+   "fonti": [
+    "scambieuropei"
+   ],
+   "inizio": "2027-08-03",
+   "motivo": "eventi (festival) · spese coperte",
+   "organizzazione": null,
+   "paese": "LV",
+   "primo_avvistamento": "2026-11-07",
+   "punteggio": 35,
+   "scadenza": null,
+   "sezione": "principale",
+   "titolo": "Democracy Residency “European Dream”: residenza in Lettonia dal 3 al 23 agosto 2027",
+   "ultimo_avvistamento": "2026-11-07",
+   "url": "https://www.scambieuropei.info/democracy-residency-european-dream-residenza-lettonia-agosto-2027/"
   }
  },
  "salute": {
+  "estyes": {
+   "allertato": false,
+   "problemi_consecutivi": 0,
+   "ultimi_risultati": 12,
+   "ultimo_ok": "2026-11-07"
+  },
+  "eyp": {
+   "allertato": false,
+   "problemi_consecutivi": 0,
+   "ultimi_risultati": 65385,
+   "ultimo_ok": "2026-11-07"
+  },
+  "ivsgb": {
+   "allertato": false,
+   "data_ultimo_problema": "2026-11-07",
+   "problemi_consecutivi": 1,
+   "ultimo_problema": "HTTPError: 503 Server Error: Service Unavailable for url: https://ivsgb.org/vap-volunteer-projects-list/"
+  },
   "lcc": {
    "allertato": false,
    "problemi_consecutivi": 0,
    "ultimi_risultati": 8,
-   "ultimo_ok": "2026-11-06"
+   "ultimo_ok": "2026-11-07"
+  },
+  "legambiente": {
+   "allertato": false,
+   "problemi_consecutivi": 0,
+   "ultimi_risultati": 983,
+   "ultimo_ok": "2026-11-07"
+  },
+  "liepaja2027": {
+   "allertato": false,
+   "problemi_consecutivi": 0,
+   "ultimi_risultati": 25,
+   "ultimo_ok": "2026-11-07"
+  },
+  "lunaria": {
+   "allertato": false,
+   "problemi_consecutivi": 0,
+   "ultimi_risultati": 110,
+   "ultimo_ok": "2026-11-07"
+  },
+  "scambieuropei": {
+   "allertato": false,
+   "problemi_consecutivi": 0,
+   "ultimi_risultati": 41,
+   "ultimo_ok": "2026-11-07"
+  },
+  "sci": {
+   "allertato": false,
+   "problemi_consecutivi": 0,
+   "ultimi_risultati": 332,
+   "ultimo_ok": "2026-11-07"
+  },
+  "visasiespejas": {
+   "allertato": false,
+   "problemi_consecutivi": 0,
+   "ultimi_risultati": 100,
+   "ultimo_ok": "2026-11-07"
+  },
+  "youthforsmile": {
+   "allertato": false,
+   "problemi_consecutivi": 0,
+   "ultimi_risultati": 23,
+   "ultimo_ok": "2026-11-07"
+  },
+  "youthworkshub": {
+   "allertato": false,
+   "problemi_consecutivi": 0,
+   "ultimi_risultati": 143,
+   "ultimo_ok": "2026-11-07"
   }
  },
- "ultima_esecuzione": "2026-11-06",
+ "ultima_esecuzione": "2026-11-07",
  "ultimo_riepilogo": null,
  "versione": 1
 }
