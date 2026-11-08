@@ -25,7 +25,7 @@
    "scadenza": null,
    "sezione": "principale",
    "titolo": "LCC Klaipėda: volontariato nei campi estivi di inglese per bambini",
-   "ultimo_avvistamento": "2026-11-07",
+   "ultimo_avvistamento": "2026-11-08",
    "url": "https://lcc.lt/summer-program#ee59f340fe"
   },
   "liepaja2027:11901": {
@@ -53,7 +53,7 @@
    "scadenza": null,
    "sezione": "principale",
    "titolo": "Liepāja 2027 Opens Doors for New Volunteers to Join the Team",
-   "ultimo_avvistamento": "2026-11-07",
+   "ultimo_avvistamento": "2026-11-08",
    "url": "https://liepaja2027.lv/en/news/liepaja-2027-opens-doors-for-new-volunteers-to-join-the-team/"
   },
   "liepaja2027:13704": {
@@ -81,7 +81,7 @@
    "scadenza": null,
    "sezione": "principale",
    "titolo": "Liepāja 2027 prepares to welcome volunteers from across Europe",
-   "ultimo_avvistamento": "2026-11-07",
+   "ultimo_avvistamento": "2026-11-08",
    "url": "https://liepaja2027.lv/en/news/liepaja-2027-prepares-to-welcome-volunteers-from-across-europe/"
   },
   "liepaja2027:16191": {
@@ -108,7 +108,7 @@
    "scadenza": null,
    "sezione": "principale",
    "titolo": "Liepāja 2027 is looking for new team members – Lawyer and Volunteer Coordinator Assistant",
-   "ultimo_avvistamento": "2026-11-07",
+   "ultimo_avvistamento": "2026-11-08",
    "url": "https://liepaja2027.lv/en/news/liepaja-2027-is-looking-for-new-team-members-lawyer-and-volunteer-coordinator-assistant/"
   },
   "liepaja2027:16584": {
@@ -136,7 +136,7 @@
    "scadenza": null,
    "sezione": "principale",
    "titolo": "Liepāja 2027 Calls for Volunteers to Join “Mission (Un)rest” Programme",
-   "ultimo_avvistamento": "2026-11-07",
+   "ultimo_avvistamento": "2026-11-08",
    "url": "https://liepaja2027.lv/en/news/liepaja-2027-calls-for-volunteers-to-join-mission-unrest-programme/"
   },
   "scambieuropei:163645": {
@@ -163,7 +163,7 @@
    "scadenza": null,
    "sezione": "principale",
    "titolo": "16 Progetti ESC a Tallin, Estonia, a tema educativo e sociale",
-   "ultimo_avvistamento": "2026-11-07",
+   "ultimo_avvistamento": "2026-11-08",
    "url": "https://www.scambieuropei.info/corpo-europeo-solidarieta-tallin/"
   },
   "scambieuropei:237682": {
@@ -190,7 +190,7 @@
    "scadenza": null,
    "sezione": "principale",
    "titolo": "ESC in Lituania svolgendo attività sociali presso Kaunas House of Generations",
-   "ultimo_avvistamento": "2026-11-07",
+   "ultimo_avvistamento": "2026-11-08",
    "url": "https://www.scambieuropei.info/corpo-europeo-solidarieta-lituania-attivita-sociali/"
   },
   "scambieuropei:248490": {
@@ -217,7 +217,7 @@
    "scadenza": null,
    "sezione": "principale",
    "titolo": "Corpo europeo di solidarietà a Riga per organizzare laboratori e attività interculturali",
-   "ultimo_avvistamento": "2026-11-07",
+   "ultimo_avvistamento": "2026-11-08",
    "url": "https://www.scambieuropei.info/corpo-europeo-solidarieta-riga-laboratori-attivita-interculturali/"
   },
   "scambieuropei:256269": {
@@ -244,7 +244,7 @@
    "scadenza": null,
    "sezione": "principale",
    "titolo": "ESC a Riga promuovendo attività culturali e iniziative giovanili",
-   "ultimo_avvistamento": "2026-11-07",
+   "ultimo_avvistamento": "2026-11-08",
    "url": "https://www.scambieuropei.info/esc-rigaattivita-culturali-iniziative-giovanili/"
   },
   "scambieuropei:258784": {
@@ -270,8 +270,204 @@
    "scadenza": null,
    "sezione": "principale",
    "titolo": "Democracy Residency “European Dream”: residenza in Lettonia dal 3 al 23 agosto 2027",
-   "ultimo_avvistamento": "2026-11-07",
+   "ultimo_avvistamento": "2026-11-08",
    "url": "https://www.scambieuropei.info/democracy-residency-european-dream-residenza-lettonia-agosto-2027/"
+  },
+  "youthworkshub:21536": {
+   "avvisi": [
+    "date da verificare",
+    "idoneità da verificare"
+   ],
+   "chiavi": [
+    "id:youthworkshub:21536",
+    "t:esc volunteering in estonia early childhood education at a small town kindergarten",
+    "url:youth.europa.eu/solidarity/opportunity/53514_en",
+    "url:youthworkshub.org/21536"
+   ],
+   "durata": null,
+   "fine": null,
+   "fonti": [
+    "youthworkshub"
+   ],
+   "inizio": null,
+   "motivo": "bambini e ragazzi (children) · sport e giochi (games) · ESC · spese coperte",
+   "organizzazione": null,
+   "paese": "EE",
+   "primo_avvistamento": "2026-11-08",
+   "punteggio": 70,
+   "scadenza": null,
+   "sezione": "principale",
+   "titolo": "🇪🇪 ESC Volunteering in Estonia 🧸 Early Childhood Education at a Small-Town Kindergarten 🌲",
+   "ultimo_avvistamento": "2026-11-08",
+   "url": "https://youthworkshub.org/21536"
+  },
+  "youthworkshub:21948": {
+   "avvisi": [
+    "date da verificare",
+    "idoneità da verificare"
+   ],
+   "chiavi": [
+    "id:youthworkshub:21948",
+    "t:esc volunteering in lithuania supporting children with disabilities at vija in kaunas",
+    "url:youth.europa.eu/solidarity/opportunity/53830_en",
+    "url:youthworkshub.org/21948"
+   ],
+   "durata": null,
+   "fine": null,
+   "fonti": [
+    "youthworkshub"
+   ],
+   "inizio": null,
+   "motivo": "bambini e ragazzi (children) · sport e giochi (sports) · ESC · spese coperte",
+   "organizzazione": null,
+   "paese": "LT",
+   "primo_avvistamento": "2026-11-08",
+   "punteggio": 70,
+   "scadenza": null,
+   "sezione": "principale",
+   "titolo": "🇱🇹 ESC Volunteering in Lithuania 💙 Supporting Children with Disabilities at \"VIJA\" in Kaunas 🎨",
+   "ultimo_avvistamento": "2026-11-08",
+   "url": "https://youthworkshub.org/21948"
+  },
+  "youthworkshub:22024": {
+   "avvisi": [
+    "date da verificare",
+    "idoneità da verificare"
+   ],
+   "chiavi": [
+    "id:youthworkshub:22024",
+    "t:esc volunteering in lithuania school youth community life in miroslavas",
+    "url:youth.europa.eu/solidarity/opportunity/53883_en",
+    "url:youthworkshub.org/22024"
+   ],
+   "durata": null,
+   "fine": null,
+   "fonti": [
+    "youthworkshub"
+   ],
+   "inizio": null,
+   "motivo": "bambini e ragazzi (children) · sport e giochi (sports) · ESC · spese coperte",
+   "organizzazione": null,
+   "paese": "LT",
+   "primo_avvistamento": "2026-11-08",
+   "punteggio": 70,
+   "scadenza": null,
+   "sezione": "principale",
+   "titolo": "🇱🇹 ESC Volunteering in Lithuania 🎨 School & Youth Community Life in Miroslavas 🌱",
+   "ultimo_avvistamento": "2026-11-08",
+   "url": "https://youthworkshub.org/22024"
+  },
+  "youthworkshub:22049": {
+   "avvisi": [
+    "date da verificare",
+    "idoneità da verificare"
+   ],
+   "chiavi": [
+    "id:youthworkshub:22049",
+    "t:esc volunteering in latvia youth work community change in gulbene",
+    "url:youth.europa.eu/solidarity/opportunity/53865_en",
+    "url:youthworkshub.org/22049"
+   ],
+   "durata": null,
+   "fine": null,
+   "fonti": [
+    "youthworkshub"
+   ],
+   "inizio": null,
+   "motivo": "bambini e ragazzi (kids) · sport e giochi (sports) · ESC · spese coperte · gruppo di giovani",
+   "organizzazione": null,
+   "paese": "LV",
+   "primo_avvistamento": "2026-11-08",
+   "punteggio": 75,
+   "scadenza": null,
+   "sezione": "principale",
+   "titolo": "🇱🇻 ESC Volunteering in Latvia 🎨 Youth Work & Community Change in Gulbene 🌱",
+   "ultimo_avvistamento": "2026-11-08",
+   "url": "https://youthworkshub.org/22049"
+  },
+  "youthworkshub:22185": {
+   "avvisi": [
+    "date da verificare",
+    "idoneità da verificare"
+   ],
+   "chiavi": [
+    "id:youthworkshub:22185",
+    "t:esc volunteering in estonia open youth work in tartu",
+    "url:youth.europa.eu/solidarity/opportunity/53937_en",
+    "url:youthworkshub.org/22185"
+   ],
+   "durata": null,
+   "fine": null,
+   "fonti": [
+    "youthworkshub"
+   ],
+   "inizio": null,
+   "motivo": "sport e giochi (games) · eventi (events) · ESC · spese coperte",
+   "organizzazione": null,
+   "paese": "EE",
+   "primo_avvistamento": "2026-11-08",
+   "punteggio": 60,
+   "scadenza": null,
+   "sezione": "principale",
+   "titolo": "🇪🇪 ESC Volunteering in Estonia 🌱 Open Youth Work in Tartu 🎨",
+   "ultimo_avvistamento": "2026-11-08",
+   "url": "https://youthworkshub.org/22185"
+  },
+  "youthworkshub:22324": {
+   "avvisi": [
+    "date da verificare",
+    "idoneità da verificare"
+   ],
+   "chiavi": [
+    "id:youthworkshub:22324",
+    "t:esc volunteering in latvia youth center work design video podcast in riga",
+    "url:youth.europa.eu/solidarity/opportunity/54033_en",
+    "url:youthworkshub.org/22324"
+   ],
+   "durata": null,
+   "fine": null,
+   "fonti": [
+    "youthworkshub"
+   ],
+   "inizio": null,
+   "motivo": "bambini e ragazzi (teenagers) · eventi (festivals) · ESC · spese coperte",
+   "organizzazione": null,
+   "paese": "LV",
+   "primo_avvistamento": "2026-11-08",
+   "punteggio": 70,
+   "scadenza": null,
+   "sezione": "principale",
+   "titolo": "🇱🇻 ESC Volunteering in Latvia 🎬 Youth Center Work, Design, Video & Podcast in Riga 🎨",
+   "ultimo_avvistamento": "2026-11-08",
+   "url": "https://youthworkshub.org/22324"
+  },
+  "youthworkshub:22431": {
+   "avvisi": [
+    "date da verificare",
+    "idoneità da verificare"
+   ],
+   "chiavi": [
+    "id:youthworkshub:22431",
+    "t:esc volunteering in estonia kindergarten volunteering at tahesara in voru",
+    "url:youth.europa.eu/solidarity/opportunity/54074_en",
+    "url:youthworkshub.org/22431"
+   ],
+   "durata": null,
+   "fine": null,
+   "fonti": [
+    "youthworkshub"
+   ],
+   "inizio": null,
+   "motivo": "bambini e ragazzi (children) · sport e giochi (sport) · ESC · spese coperte",
+   "organizzazione": null,
+   "paese": "EE",
+   "primo_avvistamento": "2026-11-08",
+   "punteggio": 70,
+   "scadenza": null,
+   "sezione": "principale",
+   "titolo": "🇪🇪 ESC Volunteering in Estonia 🧸 Kindergarten Volunteering at Tähesära in Võru",
+   "ultimo_avvistamento": "2026-11-08",
+   "url": "https://youthworkshub.org/22431"
   }
  },
  "salute": {
@@ -279,76 +475,78 @@
    "allertato": false,
    "problemi_consecutivi": 0,
    "ultimi_risultati": 12,
-   "ultimo_ok": "2026-11-07"
+   "ultimo_ok": "2026-11-08"
   },
   "eyp": {
    "allertato": false,
    "problemi_consecutivi": 0,
-   "ultimi_risultati": 65385,
-   "ultimo_ok": "2026-11-07"
+   "ultimi_risultati": 123,
+   "ultimo_ok": "2026-11-08"
   },
   "ivsgb": {
    "allertato": false,
    "data_ultimo_problema": "2026-11-07",
-   "problemi_consecutivi": 1,
+   "problemi_consecutivi": 0,
+   "ultimi_risultati": 122,
+   "ultimo_ok": "2026-11-08",
    "ultimo_problema": "HTTPError: 503 Server Error: Service Unavailable for url: https://ivsgb.org/vap-volunteer-projects-list/"
   },
   "lcc": {
    "allertato": false,
    "problemi_consecutivi": 0,
    "ultimi_risultati": 8,
-   "ultimo_ok": "2026-11-07"
+   "ultimo_ok": "2026-11-08"
   },
   "legambiente": {
    "allertato": false,
    "problemi_consecutivi": 0,
    "ultimi_risultati": 983,
-   "ultimo_ok": "2026-11-07"
+   "ultimo_ok": "2026-11-08"
   },
   "liepaja2027": {
    "allertato": false,
    "problemi_consecutivi": 0,
    "ultimi_risultati": 25,
-   "ultimo_ok": "2026-11-07"
+   "ultimo_ok": "2026-11-08"
   },
   "lunaria": {
    "allertato": false,
    "problemi_consecutivi": 0,
    "ultimi_risultati": 110,
-   "ultimo_ok": "2026-11-07"
+   "ultimo_ok": "2026-11-08"
   },
   "scambieuropei": {
    "allertato": false,
    "problemi_consecutivi": 0,
    "ultimi_risultati": 41,
-   "ultimo_ok": "2026-11-07"
+   "ultimo_ok": "2026-11-08"
   },
   "sci": {
    "allertato": false,
    "problemi_consecutivi": 0,
-   "ultimi_risultati": 332,
-   "ultimo_ok": "2026-11-07"
+   "ultimi_risultati": 333,
+   "ultimo_ok": "2026-11-08"
   },
   "visasiespejas": {
    "allertato": false,
    "problemi_consecutivi": 0,
    "ultimi_risultati": 100,
-   "ultimo_ok": "2026-11-07"
+   "ultimo_ok": "2026-11-08"
   },
   "youthforsmile": {
    "allertato": false,
    "problemi_consecutivi": 0,
    "ultimi_risultati": 23,
-   "ultimo_ok": "2026-11-07"
+   "ultimo_ok": "2026-11-08"
   },
   "youthworkshub": {
    "allertato": false,
    "problemi_consecutivi": 0,
    "ultimi_risultati": 143,
-   "ultimo_ok": "2026-11-07"
+   "ultimo_ok": "2026-11-08"
   }
  },
- "ultima_esecuzione": "2026-11-07",
+ "ultima_esecuzione": "2026-11-08",
  "ultimo_riepilogo": null,
  "versione": 1
 }
