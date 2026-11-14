@@ -3129,14 +3129,59 @@
 "lastmod": "2026-06-22T15:43:57.000Z",
 "paese": null
 },
+"https://volontariato.legambiente.it/campi-di-volontariato/promotional-volunteer": {
+"fine": "2027-01-04",
+"lastmod": "2026-06-22T15:43:54.000Z",
+"paese": null
+},
+"https://volontariato.legambiente.it/campi-di-volontariato/protect-endangered-species-in-the-black-forest": {
+"fine": "2026-08-12",
+"lastmod": "2026-06-22T15:38:50.000Z",
+"paese": null
+},
+"https://volontariato.legambiente.it/campi-di-volontariato/protected-corner-of-succulents-and-butterfly-oases": {
+"fine": "2026-07-31",
+"lastmod": "2026-06-22T15:40:05.000Z",
+"paese": null
+},
+"https://volontariato.legambiente.it/campi-di-volontariato/protecting-heritage-1": {
+"fine": "2026-05-15",
+"lastmod": "2026-06-22T15:47:15.000Z",
+"paese": null
+},
+"https://volontariato.legambiente.it/campi-di-volontariato/protecting-heritage-2": {
+"fine": "2026-06-17",
+"lastmod": "2026-06-22T15:42:32.000Z",
+"paese": null
+},
 "https://volontariato.legambiente.it/campi-di-volontariato/protecting-heritage-3-music-festival": {
 "fine": "2026-07-24",
 "lastmod": "2026-07-13T15:19:46.000Z",
 "paese": null
 },
+"https://volontariato.legambiente.it/campi-di-volontariato/protecting-trees-in-the-north-german-landscape-conservation-area": {
+"fine": "2026-07-25",
+"lastmod": "2026-06-22T15:39:25.000Z",
+"paese": null
+},
 "https://volontariato.legambiente.it/campi-di-volontariato/psu-volunteer-center-songkhla": {
 "fine": "2027-04-30",
 "lastmod": "2026-10-21T08:58:27.000Z",
+"paese": null
+},
+"https://volontariato.legambiente.it/campi-di-volontariato/public-health": {
+"fine": "2027-01-04",
+"lastmod": "2026-06-22T15:43:33.000Z",
+"paese": null
+},
+"https://volontariato.legambiente.it/campi-di-volontariato/public-health-research": {
+"fine": "2027-01-04",
+"lastmod": "2026-06-22T15:42:26.000Z",
+"paese": null
+},
+"https://volontariato.legambiente.it/campi-di-volontariato/public-school-teaching-project": {
+"fine": "2026-12-31",
+"lastmod": "2026-06-22T15:38:27.000Z",
 "paese": null
 },
 "https://volontariato.legambiente.it/campi-di-volontariato/radio-and-podcasting": {
@@ -3154,10 +3199,63 @@
 "lastmod": "2026-06-24T11:50:33.000Z",
 "paese": null
 },
+"https://volontariato.legambiente.it/campi-di-volontariato/rebuild-together-salm-castle": {
+"fine": "2026-08-12",
+"lastmod": "2026-06-22T15:42:44.000Z",
+"paese": null
+},
+"https://volontariato.legambiente.it/campi-di-volontariato/reconstruction": {
+"fine": "2027-01-04",
+"lastmod": "2026-06-22T15:43:39.000Z",
+"paese": null
+},
 "https://volontariato.legambiente.it/campi-di-volontariato/rediscover-the-ruins-of-camparian": {
 "fine": "2026-07-24",
 "lastmod": "2026-07-06T13:51:04.000Z",
 "paese": null
+},
+"https://volontariato.legambiente.it/campi-di-volontariato/rediscover-tradition": {
+"fine": "2026-06-26",
+"lastmod": "2026-06-22T15:42:30.000Z",
+"paese": null
+},
+"https://volontariato.legambiente.it/campi-di-volontariato/regenerate-i": {
+"codice": "YS-2026-01",
+"completo": false,
+"descrizione": "The REgenerate workcamp is initiated by Jaunatne smaidam / Youth for Smile and is rooted in the experience of the Outdoor Education Center established in 2010. The project aims to develop a sustainable farm–training center that serves as a living laboratory for environmental sustainability, regenerative practices, and community-based learning. This workcamp invites international volunteers to take part in a holistic lifestyle experience, where daily work is directly connected to ecological responsibility and sustainable living. The offered tasks may change depending on weather conditions, seasonal priorities, and the real needs of the farm and surrounding environment. Flexibility and openness are therefore essential parts of the learning process. Main Areas of Work Permaculture Garden Development Volunteers will contribute to the creation and maintenance of a permaculture garden, applying principles of regenerative agriculture, soil care, composting, planting, and harvesting. Animal Care and Farm Support Participants may assist in caring for farm animals such as sheep, goats, and other animals. Tasks can include building and repairing pasture paddocks, cleaning spaces, and preparing food supplies for the winter season. Restoration of Natural Areas The camp supports the restoration of natural meadows by clearing bushes and maintaining biodiversity. Volunteers may also help in cleaning and restoring small rivers or water systems affected by overgrowth. Nature Path Creation and Maintenance Work may include developing and maintaining a forest nature path – clearing bushes, planting trees, improving accessibility, and creating educational elements for visitors. Learning Dimension Beyond practical work, the camp includes non-formal education sessions focused on eco-activism, sustainability, and community engagement. Volunteers will reflect on their experiences and develop competences that can be applied in their own communities. The educational methodology is based on the Erasmus+ project “Youth Action for Nature and Well-being”, which promotes environmental responsibility, well-being, and active citizenship. REgenerate is not only about physical work — it is about reconnecting with nature, understanding sustainable systems, and learning through doing. By adapting to real conditions and working together, volunteers contribute meaningfully to environmental regeneration while developing practical, social, and ecological competences.",
+"eta_max": 99,
+"eta_min": 16,
+"fine": "2026-06-25",
+"inizio": "2026-06-17",
+"lastmod": "2026-06-22T15:41:27.000Z",
+"luogo": "Bārbele",
+"paese": "LV",
+"paese_nome": "LETTONIA",
+"temi": [
+"ENVI",
+"MANU",
+"AGRI"
+],
+"titolo": "REgenerate I"
+},
+"https://volontariato.legambiente.it/campi-di-volontariato/regenerate-ii": {
+"codice": "YS-2026-02",
+"completo": false,
+"descrizione": "The REgenerate workcamp is initiated by Jaunatne smaidam / Youth for Smile and is rooted in the experience of the Outdoor Education Center established in 2010. The project aims to develop a sustainable farm–training center that serves as a living laboratory for environmental sustainability, regenerative practices, and community-based learning. This workcamp invites international volunteers to take part in a holistic lifestyle experience, where daily work is directly connected to ecological responsibility and sustainable living. The offered tasks may change depending on weather conditions, seasonal priorities, and the real needs of the farm and surrounding environment. Flexibility and openness are therefore essential parts of the learning process. Main Areas of Work Permaculture Garden Development Volunteers will contribute to the creation and maintenance of a permaculture garden, applying principles of regenerative agriculture, soil care, composting, planting, and harvesting. Animal Care and Farm Support Participants may assist in caring for farm animals such as sheep, goats, and other animals. Tasks can include building and repairing pasture paddocks, cleaning spaces, and preparing food supplies for the winter season. Restoration of Natural Areas The camp supports the restoration of natural meadows by clearing bushes and maintaining biodiversity. Volunteers may also help in cleaning and restoring small rivers or water systems affected by overgrowth. Nature Path Creation and Maintenance Work may include developing and maintaining a forest nature path – clearing bushes, planting trees, improving accessibility, and creating educational elements for visitors. Learning Dimension Beyond practical work, the camp includes non-formal education sessions focused on eco-activism, sustainability, and community engagement. Volunteers will reflect on their experiences and develop competences that can be applied in their own communities. The educational methodology is based on the Erasmus+ project “Youth Action for Nature and Well-being”, which promotes environmental responsibility, well-being, and active citizenship. REgenerate is not only about physical work — it is about reconnecting with nature, understanding sustainable systems, and learning through doing. By adapting to real conditions and working together, volunteers contribute meaningfully to environmental regeneration while developing practical, social, and ecological competences.",
+"eta_max": 17,
+"eta_min": 14,
+"fine": "2026-07-12",
+"inizio": "2026-06-29",
+"lastmod": "2026-06-22T15:41:28.000Z",
+"luogo": "Bārbele",
+"paese": "LV",
+"paese_nome": "LETTONIA",
+"temi": [
+"ENVI",
+"MANU",
+"AGRI"
+],
+"titolo": "REgenerate II"
 },
 "https://volontariato.legambiente.it/campi-di-volontariato/regenerate-iii": {
 "codice": "YS-2026-04",
@@ -3202,6 +3300,21 @@
 "lastmod": "2026-07-13T13:39:29.000Z",
 "paese": null
 },
+"https://volontariato.legambiente.it/campi-di-volontariato/resound": {
+"fine": "2026-09-12",
+"lastmod": "2026-06-22T15:34:56.000Z",
+"paese": null
+},
+"https://volontariato.legambiente.it/campi-di-volontariato/restaure-un-ancien-couvent-restore-an-old-convent": {
+"fine": "2026-07-29",
+"lastmod": "2026-06-22T15:37:39.000Z",
+"paese": null
+},
+"https://volontariato.legambiente.it/campi-di-volontariato/reve-de-terre": {
+"fine": "2026-06-26",
+"lastmod": "2026-06-22T15:46:15.000Z",
+"paese": null
+},
 "https://volontariato.legambiente.it/campi-di-volontariato/reviving-wetlands-in-erzgebirge": {
 "fine": "2026-07-18",
 "lastmod": "2026-07-13T13:42:32.000Z",
@@ -3212,14 +3325,34 @@
 "lastmod": "2026-07-27T09:18:04.000Z",
 "paese": null
 },
+"https://volontariato.legambiente.it/campi-di-volontariato/rock-farm": {
+"fine": "2026-07-05",
+"lastmod": "2026-06-22T15:42:16.000Z",
+"paese": null
+},
 "https://volontariato.legambiente.it/campi-di-volontariato/rocknwall": {
 "fine": "2026-07-23",
 "lastmod": "2026-07-06T13:50:59.000Z",
 "paese": null
 },
+"https://volontariato.legambiente.it/campi-di-volontariato/roddys-eco-cover-environmental-program": {
+"fine": "2026-01-23",
+"lastmod": "2026-06-22T15:45:41.000Z",
+"paese": null
+},
+"https://volontariato.legambiente.it/campi-di-volontariato/roddys-eco-cover-environmental-program-2": {
+"fine": "2026-08-25",
+"lastmod": "2026-06-22T15:45:43.000Z",
+"paese": null
+},
 "https://volontariato.legambiente.it/campi-di-volontariato/rolling-and-cutting-stones-in-saint-mihiel-1": {
 "fine": "2026-07-25",
 "lastmod": "2026-10-21T08:48:21.000Z",
+"paese": null
+},
+"https://volontariato.legambiente.it/campi-di-volontariato/rolling-and-cutting-stones-in-saint-mihiel-2": {
+"fine": "2026-08-22",
+"lastmod": "2026-06-22T15:42:25.000Z",
 "paese": null
 },
 "https://volontariato.legambiente.it/campi-di-volontariato/roof-framework-with-a-view": {
@@ -3232,14 +3365,54 @@
 "lastmod": "2026-10-09T08:30:27.000Z",
 "paese": null
 },
+"https://volontariato.legambiente.it/campi-di-volontariato/rose-kindergarten-childcare": {
+"fine": "2026-12-31",
+"lastmod": "2026-06-22T15:47:28.000Z",
+"paese": null
+},
 "https://volontariato.legambiente.it/campi-di-volontariato/rpg60-school-chiangmai": {
 "fine": "2027-02-28",
 "lastmod": "2026-11-12T09:33:54.000Z",
 "paese": null
 },
+"https://volontariato.legambiente.it/campi-di-volontariato/rpk33-school-lopburi": {
+"fine": "2027-02-28",
+"lastmod": "2026-06-22T15:34:43.000Z",
+"paese": null
+},
+"https://volontariato.legambiente.it/campi-di-volontariato/salvemos-o-mar": {
+"fine": "2026-07-14",
+"lastmod": "2026-06-22T15:40:09.000Z",
+"paese": null
+},
+"https://volontariato.legambiente.it/campi-di-volontariato/sant-antonistower": {
+"fine": "2026-07-16",
+"lastmod": "2026-06-22T15:42:25.000Z",
+"paese": null
+},
+"https://volontariato.legambiente.it/campi-di-volontariato/save-the-medieval-village": {
+"fine": "2026-05-29",
+"lastmod": "2026-06-22T15:42:34.000Z",
+"paese": null
+},
 "https://volontariato.legambiente.it/campi-di-volontariato/save-the-mountain-peatlands-in-germany": {
 "fine": "2026-09-20",
 "lastmod": "2026-08-11T14:11:47.000Z",
+"paese": null
+},
+"https://volontariato.legambiente.it/campi-di-volontariato/savwa-after-school-care-support": {
+"fine": "2026-03-29",
+"lastmod": "2026-06-22T15:44:45.000Z",
+"paese": null
+},
+"https://volontariato.legambiente.it/campi-di-volontariato/savwa-after-school-support": {
+"fine": "2026-12-31",
+"lastmod": "2026-06-22T15:44:42.000Z",
+"paese": null
+},
+"https://volontariato.legambiente.it/campi-di-volontariato/savwa-celebration-of-arts-and-culture": {
+"fine": "2026-05-04",
+"lastmod": "2026-06-22T15:44:44.000Z",
 "paese": null
 },
 "https://volontariato.legambiente.it/campi-di-volontariato/savwa-climate-justice-work-camp": {
@@ -3257,14 +3430,34 @@
 "lastmod": "2026-09-09T15:03:03.000Z",
 "paese": null
 },
+"https://volontariato.legambiente.it/campi-di-volontariato/savwa-sports-development-programme": {
+"fine": "2026-12-31",
+"lastmod": "2026-06-22T15:44:42.000Z",
+"paese": null
+},
 "https://volontariato.legambiente.it/campi-di-volontariato/savwa-sports-development-programme-2": {
 "fine": "2026-07-13",
 "lastmod": "2026-10-21T08:48:01.000Z",
 "paese": null
 },
+"https://volontariato.legambiente.it/campi-di-volontariato/savwa-sports-development-programme-3": {
+"fine": "2026-04-13",
+"lastmod": "2026-06-22T15:44:46.000Z",
+"paese": null
+},
 "https://volontariato.legambiente.it/campi-di-volontariato/savwa-sustainable-permaculture-gardening": {
 "fine": "2026-10-19",
 "lastmod": "2026-10-21T08:48:06.000Z",
+"paese": null
+},
+"https://volontariato.legambiente.it/campi-di-volontariato/savwa-youth-awareness-month": {
+"fine": "2026-06-22",
+"lastmod": "2026-06-22T15:44:46.000Z",
+"paese": null
+},
+"https://volontariato.legambiente.it/campi-di-volontariato/saw-live": {
+"fine": "2026-08-17",
+"lastmod": "2026-06-22T15:40:05.000Z",
 "paese": null
 },
 "https://volontariato.legambiente.it/campi-di-volontariato/scc-nature-conservation": {
@@ -3280,6 +3473,16 @@
 "https://volontariato.legambiente.it/campi-di-volontariato/scc-nature-conservation-3": {
 "fine": "2026-08-26",
 "lastmod": "2026-10-21T08:48:02.000Z",
+"paese": null
+},
+"https://volontariato.legambiente.it/campi-di-volontariato/school-of-prehistoric-archaeology-in-the-caves-of-fuentes-de-leon": {
+"fine": "2026-08-03",
+"lastmod": "2026-06-22T15:41:14.000Z",
+"paese": null
+},
+"https://volontariato.legambiente.it/campi-di-volontariato/school-on-the-wheels-eya": {
+"fine": "2026-07-31",
+"lastmod": "2026-06-22T15:40:10.000Z",
 "paese": null
 },
 "https://volontariato.legambiente.it/campi-di-volontariato/sea-turtles-heroes-i": {
@@ -3347,6 +3550,26 @@
 "lastmod": "2026-11-12T11:32:00.000Z",
 "paese": null
 },
+"https://volontariato.legambiente.it/campi-di-volontariato/seeds-010-environment-and-photography-in-rey": {
+"fine": "2026-03-06",
+"lastmod": "2026-06-22T15:36:38.000Z",
+"paese": null
+},
+"https://volontariato.legambiente.it/campi-di-volontariato/seeds-012-environment-march-and-photography-reykjavek": {
+"fine": "2026-03-16",
+"lastmod": "2026-06-22T15:36:39.000Z",
+"paese": null
+},
+"https://volontariato.legambiente.it/campi-di-volontariato/seeds-014-environment-and-photography-march": {
+"fine": "2026-03-26",
+"lastmod": "2026-06-22T15:36:40.000Z",
+"paese": null
+},
+"https://volontariato.legambiente.it/campi-di-volontariato/seeds-015-environment-and-photography-easter-in-reykjavek": {
+"fine": "2026-04-05",
+"lastmod": "2026-06-22T15:36:37.000Z",
+"paese": null
+},
 "https://volontariato.legambiente.it/campi-di-volontariato/seeds-016-environment-and-photography-april": {
 "fine": "2026-04-15",
 "lastmod": "2026-10-21T08:48:08.000Z",
@@ -3357,9 +3580,29 @@
 "lastmod": "2026-10-21T08:48:01.000Z",
 "paese": null
 },
+"https://volontariato.legambiente.it/campi-di-volontariato/seeds-018-alvira-awareness-engagement-and-action": {
+"fine": "2026-04-25",
+"lastmod": "2026-06-22T15:36:41.000Z",
+"paese": null
+},
+"https://volontariato.legambiente.it/campi-di-volontariato/seeds-019-botanical-gardens-in-reykjavk": {
+"fine": "2026-05-09",
+"lastmod": "2026-06-22T15:36:42.000Z",
+"paese": null
+},
 "https://volontariato.legambiente.it/campi-di-volontariato/seeds-020-environment-and-photography-in-reykjavik": {
 "fine": "2026-05-05",
 "lastmod": "2026-10-21T08:48:05.000Z",
+"paese": null
+},
+"https://volontariato.legambiente.it/campi-di-volontariato/seeds-021-alvira-awareness-engagement-and-action": {
+"fine": "2026-05-05",
+"lastmod": "2026-06-22T15:36:44.000Z",
+"paese": null
+},
+"https://volontariato.legambiente.it/campi-di-volontariato/seeds-023-environment-and-photography-may": {
+"fine": "2026-05-15",
+"lastmod": "2026-06-22T15:36:45.000Z",
 "paese": null
 },
 "https://volontariato.legambiente.it/campi-di-volontariato/seeds-024-alvira-awareness-engagement-and-action": {
@@ -3370,6 +3613,11 @@
 "https://volontariato.legambiente.it/campi-di-volontariato/seeds-026-environment-and-photography-summer": {
 "fine": "2026-05-25",
 "lastmod": "2026-07-16T07:02:47.000Z",
+"paese": null
+},
+"https://volontariato.legambiente.it/campi-di-volontariato/seeds-027-alvira-awareness-engagement-and-action": {
+"fine": "2026-05-25",
+"lastmod": "2026-06-22T15:36:48.000Z",
 "paese": null
 },
 "https://volontariato.legambiente.it/campi-di-volontariato/seeds-028-island-of-vieey-1_2": {
@@ -3385,6 +3633,16 @@
 "https://volontariato.legambiente.it/campi-di-volontariato/seeds-030-alvira-awareness-engagement": {
 "fine": "2026-06-04",
 "lastmod": "2026-07-16T07:02:46.000Z",
+"paese": null
+},
+"https://volontariato.legambiente.it/campi-di-volontariato/seeds-033-alvira-awareness-engagement-and-action": {
+"fine": "2026-06-13",
+"lastmod": "2026-06-22T15:36:27.000Z",
+"paese": null
+},
+"https://volontariato.legambiente.it/campi-di-volontariato/seeds-034-photography-and-fun-in-reykjavek": {
+"fine": "2026-06-13",
+"lastmod": "2026-06-22T15:36:52.000Z",
 "paese": null
 },
 "https://volontariato.legambiente.it/campi-di-volontariato/seeds-035-hitting-the-slopes-blue-mountains-b": {
@@ -3417,6 +3675,11 @@
 "lastmod": "2026-07-16T07:02:46.000Z",
 "paese": null
 },
+"https://volontariato.legambiente.it/campi-di-volontariato/seeds-042-photography-and-midnight-sun-in-re-2": {
+"fine": "2026-07-01",
+"lastmod": "2026-06-22T15:37:01.000Z",
+"paese": null
+},
 "https://volontariato.legambiente.it/campi-di-volontariato/seeds-043-hitting-the-slopes-blue-mountains-b": {
 "fine": "2026-07-05",
 "lastmod": "2026-07-16T07:02:45.000Z",
@@ -3432,6 +3695,11 @@
 "lastmod": "2026-07-16T07:02:45.000Z",
 "paese": null
 },
+"https://volontariato.legambiente.it/campi-di-volontariato/seeds-046-photography-and-fun-in-reykjavek": {
+"fine": "2026-07-10",
+"lastmod": "2026-06-22T15:37:05.000Z",
+"paese": null
+},
 "https://volontariato.legambiente.it/campi-di-volontariato/seeds-048-alvira-awareness-engagement": {
 "fine": "2026-08-06",
 "lastmod": "2026-07-03T07:20:01.000Z",
@@ -3442,14 +3710,39 @@
 "lastmod": "2026-07-16T07:02:46.000Z",
 "paese": null
 },
+"https://volontariato.legambiente.it/campi-di-volontariato/seeds-050-midnight-sun-and-photography-in-re": {
+"fine": "2026-07-19",
+"lastmod": "2026-06-22T15:37:07.000Z",
+"paese": null
+},
+"https://volontariato.legambiente.it/campi-di-volontariato/seeds-052-alviera-awareness-engagement-and-am": {
+"fine": "2026-07-28",
+"lastmod": "2026-06-22T15:37:08.000Z",
+"paese": null
+},
 "https://volontariato.legambiente.it/campi-di-volontariato/seeds-053-environmental-awareness-and-action": {
 "fine": "2026-07-28",
 "lastmod": "2026-07-08T08:07:26.000Z",
 "paese": null
 },
+"https://volontariato.legambiente.it/campi-di-volontariato/seeds-054-july-photography-and-fun-in-reykja": {
+"fine": "2026-07-28",
+"lastmod": "2026-06-22T15:37:09.000Z",
+"paese": null
+},
+"https://volontariato.legambiente.it/campi-di-volontariato/seeds-056-alviera-awareness-engagement-and-am": {
+"fine": "2026-08-06",
+"lastmod": "2026-06-22T15:37:10.000Z",
+"paese": null
+},
 "https://volontariato.legambiente.it/campi-di-volontariato/seeds-057-environmental-awareness-and-action": {
 "fine": "2026-08-06",
 "lastmod": "2026-07-06T08:45:40.000Z",
+"paese": null
+},
+"https://volontariato.legambiente.it/campi-di-volontariato/seeds-058-photography-and-fun-in-reykjavek": {
+"fine": "2026-08-06",
+"lastmod": "2026-06-22T15:37:12.000Z",
 "paese": null
 },
 "https://volontariato.legambiente.it/campi-di-volontariato/seeds-060-alviera-awareness-engagement-and-am": {
@@ -3487,6 +3780,11 @@
 "lastmod": "2026-10-21T08:48:11.000Z",
 "paese": null
 },
+"https://volontariato.legambiente.it/campi-di-volontariato/seeds-067-island-of-vieey-2-2": {
+"fine": "2026-08-27",
+"lastmod": "2026-06-22T15:37:16.000Z",
+"paese": null
+},
 "https://volontariato.legambiente.it/campi-di-volontariato/seeds-068-alviera-awareness-engagement-and-a": {
 "fine": "2026-09-02",
 "lastmod": "2026-10-21T08:48:02.000Z",
@@ -3502,6 +3800,11 @@
 "lastmod": "2026-10-21T08:48:27.000Z",
 "paese": null
 },
+"https://volontariato.legambiente.it/campi-di-volontariato/seeds-071-botanical-gardens-in-reykjavk": {
+"fine": "2026-09-19",
+"lastmod": "2026-06-22T15:36:37.000Z",
+"paese": null
+},
 "https://volontariato.legambiente.it/campi-di-volontariato/seeds-072-alviera-awareness-engagement-and-am": {
 "fine": "2026-09-11",
 "lastmod": "2026-10-21T08:48:31.000Z",
@@ -3510,6 +3813,11 @@
 "https://volontariato.legambiente.it/campi-di-volontariato/seeds-073-environmental-awareness-and-action": {
 "fine": "2026-09-11",
 "lastmod": "2026-08-25T09:10:12.000Z",
+"paese": null
+},
+"https://volontariato.legambiente.it/campi-di-volontariato/seeds-074-photography-and-fun-in-reykjavek": {
+"fine": "2026-09-11",
+"lastmod": "2026-06-22T15:37:22.000Z",
 "paese": null
 },
 "https://volontariato.legambiente.it/campi-di-volontariato/seeds-076-alviera-awareness-engagement-and-am": {
@@ -3642,6 +3950,11 @@
 "lastmod": "2026-08-10T15:28:20.000Z",
 "paese": null
 },
+"https://volontariato.legambiente.it/campi-di-volontariato/seeds-of-love": {
+"fine": "2026-12-31",
+"lastmod": "2026-06-22T15:41:26.000Z",
+"paese": null
+},
 "https://volontariato.legambiente.it/campi-di-volontariato/selvatka-2-0": {
 "fine": "2026-07-19",
 "lastmod": "2026-08-20T06:47:08.000Z",
@@ -3657,6 +3970,11 @@
 "lastmod": "2026-10-21T08:48:07.000Z",
 "paese": null
 },
+"https://volontariato.legambiente.it/campi-di-volontariato/shining-star-ecdc-and-orphans-school": {
+"fine": "2026-07-24",
+"lastmod": "2026-06-22T15:45:44.000Z",
+"paese": null
+},
 "https://volontariato.legambiente.it/campi-di-volontariato/shintoku": {
 "fine": "2026-09-08",
 "lastmod": "2026-10-21T08:48:02.000Z",
@@ -3667,9 +3985,24 @@
 "lastmod": "2026-07-09T12:11:03.000Z",
 "paese": null
 },
+"https://volontariato.legambiente.it/campi-di-volontariato/sign-and-smile-deaf-children-s-support-project-2": {
+"fine": "2026-05-24",
+"lastmod": "2026-06-22T15:44:06.000Z",
+"paese": null
+},
 "https://volontariato.legambiente.it/campi-di-volontariato/smile-to-treat-i": {
 "fine": "2026-08-11",
 "lastmod": "2026-07-08T08:03:59.000Z",
+"paese": null
+},
+"https://volontariato.legambiente.it/campi-di-volontariato/smile-to-treat-ii": {
+"fine": "2026-08-26",
+"lastmod": "2026-06-22T15:46:22.000Z",
+"paese": null
+},
+"https://volontariato.legambiente.it/campi-di-volontariato/solidarity-gardens": {
+"fine": "2026-08-14",
+"lastmod": "2026-06-22T15:37:36.000Z",
 "paese": null
 },
 "https://volontariato.legambiente.it/campi-di-volontariato/solidarity-in-action": {
@@ -3686,6 +4019,40 @@
 "fine": "2026-08-27",
 "lastmod": "2026-07-28T07:51:13.000Z",
 "paese": null
+},
+"https://volontariato.legambiente.it/campi-di-volontariato/sparta-1": {
+"codice": "EST TS1",
+"completo": false,
+"descrizione": "ProgramThere are diverse activities in the camp program: canoeing, water scootering, tubing in the sea, running ATV, paintball in the forest, sport games - football, rugby, volleyball, athletics, table tennis, archery, frisbee, disc-golf, trampolines, different competitions, cross, sport orientation in the forest on and on sea (navigation), fishing, bicycle trips to explore the area, visit to the horse farm with horse riding, excursions historical places of interest in the area, active games, picnics on a seaside, building sand and stones castles on the beach, Estonian sauna party, etc. Bikes are available for the whole camp duration free of charge. WorkThere will be also some voluntary work such as painting of community buildings, repairing benches and tables, cleaning local beach and old local park from garbage, planting trees, little renovation works in the local school, clearing pavement, helping seniors living in the community with some household duties, preparing fire woods for heating, berries and herbs picking to give the crop to the orphanage and seniors home, duty in a kitchen and around the camp once in a shift, etc. The work will be organised in cooperation with local forestry department, municipality of Nova and local school. Please note that the work described above is planned for the whole summer and it may change from one shift to another depending on local needs, the season and weather conditions.",
+"eta_max": 17,
+"eta_min": 14,
+"fine": "2026-07-08",
+"inizio": "2026-06-27",
+"lastmod": "2026-06-22T15:42:09.000Z",
+"luogo": "NOVA KULA",
+"paese": "EE",
+"paese_nome": "ESTONIA",
+"temi": [
+"ENVI"
+],
+"titolo": "SPARTA 1"
+},
+"https://volontariato.legambiente.it/campi-di-volontariato/sparta-2": {
+"codice": "EST TS2",
+"completo": false,
+"descrizione": "ProgramThere are diverse activities in the camp program: canoeing, water scootering, tubing in the sea, running ATV, paintball in the forest, sport games - football, rugby, volleyball, athletics, table tennis, archery, frisbee, disc-golf, trampolines, different competitions, cross, sport orientation in the forest on and on sea (navigation), fishing, bicycle trips to explore the area, visit to the horse farm with horse riding, excursions historical places of interest in the area, active games, picnics on a seaside, building sand and stones castles on the beach, Estonian sauna party, etc. Bikes are available for the whole camp duration free of charge. WorkThere will be also some voluntary work such as painting of community buildings, repairing benches and tables, cleaning local beach and old local park from garbage, planting trees, little renovation works in the local school, clearing pavement, helping seniors living in the community with some household duties, preparing fire woods for heating, berries and herbs picking to give the crop to the orphanage and seniors home, duty in a kitchen and around the camp once in a shift, etc. The work will be organised in cooperation with local forestry department, municipality of Nova and local school. Please note that the work described above is planned for the whole summer and it may change from one shift to another depending on local needs, the season and weather conditions.",
+"eta_max": 17,
+"eta_min": 14,
+"fine": "2026-07-18",
+"inizio": "2026-07-07",
+"lastmod": "2026-06-22T15:42:09.000Z",
+"luogo": "NOVA KULA",
+"paese": "EE",
+"paese_nome": "ESTONIA",
+"temi": [
+"ENVI"
+],
+"titolo": "SPARTA 2"
 },
 "https://volontariato.legambiente.it/campi-di-volontariato/sparta-3": {
 "codice": "EST TS3",
@@ -3755,9 +4122,24 @@
 ],
 "titolo": "SPARTA 6"
 },
+"https://volontariato.legambiente.it/campi-di-volontariato/special-learning-project": {
+"fine": "2026-12-31",
+"lastmod": "2026-06-22T15:38:26.000Z",
+"paese": null
+},
 "https://volontariato.legambiente.it/campi-di-volontariato/special-olympics-belgium": {
 "fine": "2026-05-18",
 "lastmod": "2026-10-21T08:48:20.000Z",
+"paese": null
+},
+"https://volontariato.legambiente.it/campi-di-volontariato/specially-abled-children-project": {
+"fine": "2026-12-31",
+"lastmod": "2026-06-22T15:38:32.000Z",
+"paese": null
+},
+"https://volontariato.legambiente.it/campi-di-volontariato/speech-hearing-impaired-children-teaching-project": {
+"fine": "2026-12-31",
+"lastmod": "2026-06-22T15:38:27.000Z",
 "paese": null
 },
 "https://volontariato.legambiente.it/campi-di-volontariato/spiagge-pulite-onde-di-cambiamento": {
@@ -3780,9 +4162,69 @@
 "lastmod": "2026-10-21T08:48:12.000Z",
 "paese": null
 },
+"https://volontariato.legambiente.it/campi-di-volontariato/st-iscles-castle-looking-for-a-past": {
+"fine": "2026-08-30",
+"lastmod": "2026-06-22T15:37:45.000Z",
+"paese": null
+},
+"https://volontariato.legambiente.it/campi-di-volontariato/st-james-community-orphans-school": {
+"fine": "2026-08-28",
+"lastmod": "2026-06-22T15:45:46.000Z",
+"paese": null
+},
+"https://volontariato.legambiente.it/campi-di-volontariato/stage-on-the-street-all-included": {
+"fine": "2026-07-18",
+"lastmod": "2026-06-22T15:34:47.000Z",
+"paese": null
+},
+"https://volontariato.legambiente.it/campi-di-volontariato/step-into-nature-the-forests-of-heilsbronn": {
+"fine": "2026-08-08",
+"lastmod": "2026-06-22T15:48:00.000Z",
+"paese": null
+},
 "https://volontariato.legambiente.it/campi-di-volontariato/stone-by-stone-at-the-cailletiere": {
 "fine": "2026-08-19",
 "lastmod": "2026-08-26T13:38:37.000Z",
+"paese": null
+},
+"https://volontariato.legambiente.it/campi-di-volontariato/stone-story-castle-renovation": {
+"fine": "2026-08-20",
+"lastmod": "2026-06-22T15:42:58.000Z",
+"paese": null
+},
+"https://volontariato.legambiente.it/campi-di-volontariato/stories-by-the-lake": {
+"fine": "2026-07-31",
+"lastmod": "2026-06-22T15:41:24.000Z",
+"paese": null
+},
+"https://volontariato.legambiente.it/campi-di-volontariato/summer-camp-at-kaposvar": {
+"fine": "2026-07-05",
+"lastmod": "2026-06-22T15:42:43.000Z",
+"paese": null
+},
+"https://volontariato.legambiente.it/campi-di-volontariato/summer-camp-at-litke": {
+"fine": "2026-07-19",
+"lastmod": "2026-06-22T15:42:42.000Z",
+"paese": null
+},
+"https://volontariato.legambiente.it/campi-di-volontariato/summer-camp-at-szecseny": {
+"fine": "2026-08-16",
+"lastmod": "2026-06-22T15:42:20.000Z",
+"paese": null
+},
+"https://volontariato.legambiente.it/campi-di-volontariato/summer-camp-in-jaszbereny": {
+"fine": "2026-08-02",
+"lastmod": "2026-06-22T15:42:41.000Z",
+"paese": null
+},
+"https://volontariato.legambiente.it/campi-di-volontariato/summer-camp-in-pecs": {
+"fine": "2026-08-02",
+"lastmod": "2026-06-22T15:42:19.000Z",
+"paese": null
+},
+"https://volontariato.legambiente.it/campi-di-volontariato/summer-camp-in-petervasara": {
+"fine": "2026-08-16",
+"lastmod": "2026-06-22T15:42:40.000Z",
 "paese": null
 },
 "https://volontariato.legambiente.it/campi-di-volontariato/summer-in-the-city-build-a-playground-for-kids": {
@@ -3803,6 +4245,11 @@
 "https://volontariato.legambiente.it/campi-di-volontariato/support-womens-cooperative": {
 "fine": "2026-09-12",
 "lastmod": "2026-10-21T08:48:12.000Z",
+"paese": null
+},
+"https://volontariato.legambiente.it/campi-di-volontariato/sustainable-agriculture-animal-husbandry-project": {
+"fine": "2026-12-31",
+"lastmod": "2026-06-22T15:38:24.000Z",
 "paese": null
 },
 "https://volontariato.legambiente.it/campi-di-volontariato/svitene-palace-i": {
@@ -3949,9 +4396,31 @@
 ],
 "titolo": "TAEVASKOJA YOUTH CAMP 3"
 },
+"https://volontariato.legambiente.it/campi-di-volontariato/taevaskoja-youth-camp-4": {
+"codice": "EST LTA4",
+"completo": false,
+"descrizione": "Each day of the camp will have a program completed by local coordinators and the volunteers will be helping to realize it. The main activities will be intercultural learning through finding differences and similarities between Estonia and countries, where volunteers come from (history, traditions, language, singing, dancing). It will be done through games, drama, sport, discussions. We expect that volunteers would lead a workshop connected with their culture (traditional dances, songs, games, everyday life, food specialities, etc.) It can be an educational one or as a game to play. Therefore, we look for active volunteers with good knowledge of history and culture of their country and ability to present it. Volunteer will work in partnership with professional local educators and youth workers i 9 staff members. The age of children is from 8 to 18 depending on shift.",
+"eta_max": 35,
+"eta_min": 20,
+"fine": "2026-08-16",
+"inizio": "2026-08-08",
+"lastmod": "2026-06-22T15:41:53.000Z",
+"luogo": "TAEVASKOJA",
+"paese": "EE",
+"paese_nome": "ESTONIA",
+"temi": [
+"KIDS"
+],
+"titolo": "TAEVASKOJA YOUTH CAMP 4"
+},
 "https://volontariato.legambiente.it/campi-di-volontariato/taiwan-halloween": {
 "fine": "2026-08-29",
 "lastmod": "2026-07-20T14:43:12.000Z",
+"paese": null
+},
+"https://volontariato.legambiente.it/campi-di-volontariato/taking-action-for-sustainable-development": {
+"fine": "2026-07-18",
+"lastmod": "2026-06-22T15:42:56.000Z",
 "paese": null
 },
 "https://volontariato.legambiente.it/campi-di-volontariato/talent-kids-with-special-needs": {
@@ -3962,6 +4431,41 @@
 "https://volontariato.legambiente.it/campi-di-volontariato/talking-stones-world-heritage-volunteers": {
 "fine": "2026-08-16",
 "lastmod": "2026-10-21T08:48:09.000Z",
+"paese": null
+},
+"https://volontariato.legambiente.it/campi-di-volontariato/teacher-development": {
+"fine": "2027-01-04",
+"lastmod": "2026-06-22T15:43:45.000Z",
+"paese": null
+},
+"https://volontariato.legambiente.it/campi-di-volontariato/teaching-arts-and-crafts": {
+"fine": "2027-01-04",
+"lastmod": "2026-06-22T15:43:44.000Z",
+"paese": null
+},
+"https://volontariato.legambiente.it/campi-di-volontariato/teaching-coaching-sports": {
+"fine": "2027-01-04",
+"lastmod": "2026-06-22T15:43:42.000Z",
+"paese": null
+},
+"https://volontariato.legambiente.it/campi-di-volontariato/teaching-computer-science": {
+"fine": "2027-01-04",
+"lastmod": "2026-06-22T15:43:41.000Z",
+"paese": null
+},
+"https://volontariato.legambiente.it/campi-di-volontariato/teaching-english-at-buddhist-monastery": {
+"fine": "2027-01-04",
+"lastmod": "2026-06-22T15:43:40.000Z",
+"paese": null
+},
+"https://volontariato.legambiente.it/campi-di-volontariato/teaching-english-at-community-schools": {
+"fine": "2027-01-04",
+"lastmod": "2026-06-22T15:43:40.000Z",
+"paese": null
+},
+"https://volontariato.legambiente.it/campi-di-volontariato/teaching-yoga": {
+"fine": "2027-01-04",
+"lastmod": "2026-06-22T15:43:42.000Z",
 "paese": null
 },
 "https://volontariato.legambiente.it/campi-di-volontariato/teen-down-town-11": {
@@ -3997,6 +4501,57 @@
 "LANG"
 ],
 "titolo": "TEEN DOWN TOWN 12"
+},
+"https://volontariato.legambiente.it/campi-di-volontariato/teen-down-town-13-5": {
+"codice": "EST TDT13",
+"completo": false,
+"descrizione": "ProgramCamp program may include but is not limited to team projects, discussions at the round table, social and sport games, performances in the open air, actions for peace and nature, meetings with people, visits to museums and sightseeing as well as presentations of the countries that camp participants and volunteers represent, etc. Every day the camp will have a country presentation, a subject to learn or discuss and a related activity. Teenagers will stay in the camp activities zone from 10:00 to 17:00. 14-day program includes one day off in the camp and at least one day of travel outside Tallinn. The day off is spent either under the leadership of a member of the school staff or in the host family. Camp activities will take place in the premises of the language school that is situated in the very centre of the city. To activate teenagers and run the program, there will be a group of international volunteers and members of the local school staff.Special features of this summer:1) ONLY camp shifts for 8 days and 14 days include one trip outside Tallinn.2) A teenage camp participant is welcome to extend their stay for one or two weeks within the camp dates.",
+"eta_max": 16,
+"eta_min": 14,
+"fine": "2026-07-05",
+"inizio": "2026-06-28",
+"lastmod": "2026-06-22T15:41:55.000Z",
+"luogo": "TALLINN",
+"paese": "EE",
+"paese_nome": "ESTONIA",
+"temi": [
+"LANG"
+],
+"titolo": "TEEN DOWN TOWN 13"
+},
+"https://volontariato.legambiente.it/campi-di-volontariato/teen-down-town-14-3": {
+"codice": "EST TDT14",
+"completo": false,
+"descrizione": "ProgramCamp program may include but is not limited to team projects, discussions at the round table, social and sport games, performances in the open air, actions for peace and nature, meetings with people, visits to museums and sightseeing as well as presentations of the countries that camp participants and volunteers represent, etc. Every day the camp will have a country presentation, a subject to learn or discuss and a related activity. Teenagers will stay in the camp activities zone from 10:00 to 17:00. 14-day program includes one day off in the camp and at least one day of travel outside Tallinn. The day off is spent either under the leadership of a member of the school staff or in the host family. Camp activities will take place in the premises of the language school that is situated in the very centre of the city. To activate teenagers and run the program, there will be a group of international volunteers and members of the local school staff.Special features of this summer:1) ONLY camp shifts for 8 days and 14 days include one trip outside Tallinn.2) A teenage camp participant is welcome to extend their stay for one or two weeks within the camp dates.",
+"eta_max": 16,
+"eta_min": 14,
+"fine": "2026-07-11",
+"inizio": "2026-07-05",
+"lastmod": "2026-06-22T15:41:56.000Z",
+"luogo": "TALLINN",
+"paese": "EE",
+"paese_nome": "ESTONIA",
+"temi": [
+"LANG"
+],
+"titolo": "TEEN DOWN TOWN 14"
+},
+"https://volontariato.legambiente.it/campi-di-volontariato/teen-down-town-15-3": {
+"codice": "EST TDT15",
+"completo": false,
+"descrizione": "ProgramCamp program may include but is not limited to team projects, discussions at the round table, social and sport games, performances in the open air, actions for peace and nature, meetings with people, visits to museums and sightseeing as well as presentations of the countries that camp participants and volunteers represent, etc. Every day the camp will have a country presentation, a subject to learn or discuss and a related activity. Teenagers will stay in the camp activities zone from 10:00 to 17:00. 14-day program includes one day off in the camp and at least one day of travel outside Tallinn. The day off is spent either under the leadership of a member of the school staff or in the host family. Camp activities will take place in the premises of the language school that is situated in the very centre of the city. To activate teenagers and run the program, there will be a group of international volunteers and members of the local school staff.Special features of this summer:1) ONLY camp shifts for 8 days and 14 days include one trip outside Tallinn.2) A teenage camp participant is welcome to extend their stay for one or two weeks within the camp dates.",
+"eta_max": 16,
+"eta_min": 14,
+"fine": "2026-08-02",
+"inizio": "2026-07-26",
+"lastmod": "2026-06-22T15:41:57.000Z",
+"luogo": "TALLINN",
+"paese": "EE",
+"paese_nome": "ESTONIA",
+"temi": [
+"LANG"
+],
+"titolo": "TEEN DOWN TOWN 15"
 },
 "https://volontariato.legambiente.it/campi-di-volontariato/teen-down-town-16-3": {
 "codice": "EST TDT16",
@@ -4066,6 +4621,40 @@
 ],
 "titolo": "TEEN DOWN TOWN 21"
 },
+"https://volontariato.legambiente.it/campi-di-volontariato/teen-down-town-22": {
+"codice": "EST TDT22",
+"completo": false,
+"descrizione": "ProgramCamp program may include but is not limited to team projects, discussions at the round table, social and sport games, performances in the open air, actions for peace and nature, meetings with people, visits to museums and sightseeing as well as presentations of the countries that camp participants and volunteers represent, etc. Every day the camp will have a country presentation, a subject to learn or discuss and a related activity. Teenagers will stay in the camp activities zone from 10:00 to 17:00. 14-day program includes one day off in the camp and at least one day of travel outside Tallinn. The day off is spent either under the leadership of a member of the school staff or in the host family. Camp activities will take place in the premises of the language school that is situated in the very centre of the city. To activate teenagers and run the program, there will be a group of international volunteers and members of the local school staff.Special features of this summer:1) ONLY camp shifts for 8 days and 14 days include one trip outside Tallinn.2) A teenage camp participant is welcome to extend their stay for one or two weeks within the camp dates.",
+"eta_max": 16,
+"eta_min": 14,
+"fine": "2026-07-11",
+"inizio": "2026-06-28",
+"lastmod": "2026-06-22T15:42:08.000Z",
+"luogo": "TALLINN",
+"paese": "EE",
+"paese_nome": "ESTONIA",
+"temi": [
+"LANG"
+],
+"titolo": "TEEN DOWN TOWN 22"
+},
+"https://volontariato.legambiente.it/campi-di-volontariato/teen-down-town-23": {
+"codice": "EST TDT23",
+"completo": false,
+"descrizione": "ProgramCamp program may include but is not limited to team projects, discussions at the round table, social and sport games, performances in the open air, actions for peace and nature, meetings with people, visits to museums and sightseeing as well as presentations of the countries that camp participants and volunteers represent, etc. Every day the camp will have a country presentation, a subject to learn or discuss and a related activity. Teenagers will stay in the camp activities zone from 10:00 to 17:00. 14-day program includes one day off in the camp and at least one day of travel outside Tallinn. The day off is spent either under the leadership of a member of the school staff or in the host family. Camp activities will take place in the premises of the language school that is situated in the very centre of the city. To activate teenagers and run the program, there will be a group of international volunteers and members of the local school staff.Special features of this summer:1) ONLY camp shifts for 8 days and 14 days include one trip outside Tallinn.2) A teenage camp participant is welcome to extend their stay for one or two weeks within the camp dates.",
+"eta_max": 16,
+"eta_min": 14,
+"fine": "2026-08-08",
+"inizio": "2026-07-26",
+"lastmod": "2026-06-22T15:42:08.000Z",
+"luogo": "TALLINN",
+"paese": "EE",
+"paese_nome": "ESTONIA",
+"temi": [
+"LANG"
+],
+"titolo": "TEEN DOWN TOWN 23"
+},
 "https://volontariato.legambiente.it/campi-di-volontariato/teen-down-town-24": {
 "codice": "EST TDT24",
 "completo": false,
@@ -4098,6 +4687,11 @@
 "lastmod": "2026-10-21T08:48:02.000Z",
 "paese": null
 },
+"https://volontariato.legambiente.it/campi-di-volontariato/thai-hai-eco-village-traditional-keepers-01": {
+"fine": "2026-06-26",
+"lastmod": "2026-06-22T15:47:30.000Z",
+"paese": null
+},
 "https://volontariato.legambiente.it/campi-di-volontariato/thai-hai-eco-village-traditional-keepers-02": {
 "fine": "2026-07-10",
 "lastmod": "2026-07-06T15:23:42.000Z",
@@ -4106,6 +4700,11 @@
 "https://volontariato.legambiente.it/campi-di-volontariato/thailand-public-health-community-service-study-visit": {
 "fine": "2026-08-06",
 "lastmod": "2026-10-21T08:49:58.000Z",
+"paese": null
+},
+"https://volontariato.legambiente.it/campi-di-volontariato/the-abbey-ramparts-of-saint-amand": {
+"fine": "2026-08-28",
+"lastmod": "2026-06-22T15:35:41.000Z",
 "paese": null
 },
 "https://volontariato.legambiente.it/campi-di-volontariato/the-bat-tunnel": {
@@ -4138,9 +4737,19 @@
 "lastmod": "2026-11-12T09:33:54.000Z",
 "paese": null
 },
+"https://volontariato.legambiente.it/campi-di-volontariato/the-great-wall-preservation-and-sustainable-rural-development": {
+"fine": "2026-07-14",
+"lastmod": "2026-06-22T15:42:36.000Z",
+"paese": null
+},
 "https://volontariato.legambiente.it/campi-di-volontariato/the-great-wall-preservation-and-sustainable-rural-development-2": {
 "fine": "2026-07-14",
 "lastmod": "2026-10-21T08:48:08.000Z",
+"paese": null
+},
+"https://volontariato.legambiente.it/campi-di-volontariato/the-guardians-of-stone": {
+"fine": "2026-08-11",
+"lastmod": "2026-06-22T15:37:35.000Z",
 "paese": null
 },
 "https://volontariato.legambiente.it/campi-di-volontariato/the-little-free-library-hive": {
@@ -4156,6 +4765,11 @@
 "https://volontariato.legambiente.it/campi-di-volontariato/the-paper-trail-i": {
 "fine": "2026-07-16",
 "lastmod": "2026-10-21T08:48:25.000Z",
+"paese": null
+},
+"https://volontariato.legambiente.it/campi-di-volontariato/the-paper-trail-ii": {
+"fine": "2026-07-31",
+"lastmod": "2026-06-22T15:40:04.000Z",
 "paese": null
 },
 "https://volontariato.legambiente.it/campi-di-volontariato/the-path-under-the-gisquet-gate": {
@@ -4178,9 +4792,19 @@
 "lastmod": "2026-09-24T12:52:26.000Z",
 "paese": null
 },
+"https://volontariato.legambiente.it/campi-di-volontariato/the-remains-of-clausonnes-abbey-1": {
+"fine": "2026-06-29",
+"lastmod": "2026-06-22T15:36:10.000Z",
+"paese": null
+},
 "https://volontariato.legambiente.it/campi-di-volontariato/the-remains-of-clausonnes-abbey-2": {
 "fine": "2026-07-14",
 "lastmod": "2026-07-13T13:41:50.000Z",
+"paese": null
+},
+"https://volontariato.legambiente.it/campi-di-volontariato/the-spring-vegetable-garden-2": {
+"fine": "2026-05-29",
+"lastmod": "2026-06-22T15:42:46.000Z",
 "paese": null
 },
 "https://volontariato.legambiente.it/campi-di-volontariato/the-stone-wall-of-the-hotellerie-1": {
@@ -4198,9 +4822,19 @@
 "lastmod": "2026-08-26T13:38:58.000Z",
 "paese": null
 },
+"https://volontariato.legambiente.it/campi-di-volontariato/the-train-of-the-way-of-st-james": {
+"fine": "2026-08-09",
+"lastmod": "2026-06-22T15:41:19.000Z",
+"paese": null
+},
 "https://volontariato.legambiente.it/campi-di-volontariato/the-witches-claws": {
 "fine": "2026-10-08",
 "lastmod": "2026-10-07T08:17:17.000Z",
+"paese": null
+},
+"https://volontariato.legambiente.it/campi-di-volontariato/theatres-nomades-festival": {
+"fine": "2026-08-21",
+"lastmod": "2026-06-22T15:39:46.000Z",
 "paese": null
 },
 "https://volontariato.legambiente.it/campi-di-volontariato/tibetan-culture": {
@@ -4218,6 +4852,11 @@
 "lastmod": "2026-10-21T08:48:10.000Z",
 "paese": null
 },
+"https://volontariato.legambiente.it/campi-di-volontariato/tibetan-culture-social-dev-4": {
+"fine": "2026-03-25",
+"lastmod": "2026-06-22T15:44:58.000Z",
+"paese": null
+},
 "https://volontariato.legambiente.it/campi-di-volontariato/tibetan-culture-social-dev-5": {
 "fine": "2026-07-22",
 "lastmod": "2026-10-21T08:48:05.000Z",
@@ -4226,6 +4865,11 @@
 "https://volontariato.legambiente.it/campi-di-volontariato/tibetan-culture-social-dev-7": {
 "fine": "2026-09-03",
 "lastmod": "2026-10-21T08:48:15.000Z",
+"paese": null
+},
+"https://volontariato.legambiente.it/campi-di-volontariato/tipula-eya": {
+"fine": "2026-07-25",
+"lastmod": "2026-06-22T15:34:06.000Z",
 "paese": null
 },
 "https://volontariato.legambiente.it/campi-di-volontariato/to-the-rhythm-of-biodiversity": {
@@ -4238,6 +4882,11 @@
 "lastmod": "2026-10-21T08:48:16.000Z",
 "paese": null
 },
+"https://volontariato.legambiente.it/campi-di-volontariato/tondabayashi": {
+"fine": "2026-07-26",
+"lastmod": "2026-06-22T15:35:10.000Z",
+"paese": null
+},
 "https://volontariato.legambiente.it/campi-di-volontariato/tools-and-chords": {
 "fine": "2026-08-11",
 "lastmod": "2026-07-13T15:19:49.000Z",
@@ -4248,9 +4897,24 @@
 "lastmod": "2026-06-26T23:33:53.000Z",
 "paese": null
 },
+"https://volontariato.legambiente.it/campi-di-volontariato/travel-tour-and-volunteering": {
+"fine": "2027-01-04",
+"lastmod": "2026-06-22T15:43:46.000Z",
+"paese": null
+},
 "https://volontariato.legambiente.it/campi-di-volontariato/treasures-of-jewish-culture-in-holesov": {
 "fine": "2026-07-26",
 "lastmod": "2026-10-21T08:48:32.000Z",
+"paese": null
+},
+"https://volontariato.legambiente.it/campi-di-volontariato/trekking-and-volunteering": {
+"fine": "2027-01-04",
+"lastmod": "2026-06-22T15:43:46.000Z",
+"paese": null
+},
+"https://volontariato.legambiente.it/campi-di-volontariato/tsuga": {
+"fine": "2026-08-02",
+"lastmod": "2026-06-22T15:35:17.000Z",
 "paese": null
 },
 "https://volontariato.legambiente.it/campi-di-volontariato/ulu-tiram-2": {
@@ -4263,9 +4927,24 @@
 "lastmod": "2026-10-21T08:48:03.000Z",
 "paese": null
 },
+"https://volontariato.legambiente.it/campi-di-volontariato/under-the-same-roof-i": {
+"fine": "2026-02-12",
+"lastmod": "2026-06-22T15:42:15.000Z",
+"paese": null
+},
+"https://volontariato.legambiente.it/campi-di-volontariato/under-the-same-roof-ii": {
+"fine": "2026-03-28",
+"lastmod": "2026-06-22T15:42:15.000Z",
+"paese": null
+},
 "https://volontariato.legambiente.it/campi-di-volontariato/under-the-sand-our-roots": {
 "fine": "2026-07-18",
 "lastmod": "2026-07-13T13:39:05.000Z",
+"paese": null
+},
+"https://volontariato.legambiente.it/campi-di-volontariato/united-by-donkeys-iv": {
+"fine": "2026-07-24",
+"lastmod": "2026-06-22T15:34:56.000Z",
 "paese": null
 },
 "https://volontariato.legambiente.it/campi-di-volontariato/universitas-in-farmhouse": {
@@ -4338,6 +5017,38 @@
 "lastmod": "2026-06-24T11:50:31.000Z",
 "paese": null
 },
+"https://volontariato.legambiente.it/campi-di-volontariato/venetians-in-north-savonia": {
+"fine": "2026-09-02",
+"lastmod": "2026-06-22T15:34:15.000Z",
+"paese": null
+},
+"https://volontariato.legambiente.it/campi-di-volontariato/viaxa-pola-istoria": {
+"fine": "2026-08-12",
+"lastmod": "2026-06-22T15:39:18.000Z",
+"paese": null
+},
+"https://volontariato.legambiente.it/campi-di-volontariato/vietnam-friendship-village-childcare": {
+"fine": "2026-12-31",
+"lastmod": "2026-06-22T15:47:25.000Z",
+"paese": null
+},
+"https://volontariato.legambiente.it/campi-di-volontariato/vihasoo-youth-camp": {
+"codice": "EST 04",
+"completo": false,
+"descrizione": "Each day of the camp will have a program completed by local coordinators and volunteers will be helping to realize it. The main activities will be intercultural learning through finding differences and similarities between Estonia and countries, where volunteers come from (history, traditions, language, singing, dancing, etc). It will be done through art, games, drama, sport, discussions. We expect active volunteers with the good knowledge of history and culture of their country and ability to present it. Volunteers will lead workshops connected with their cultural expression, which may culminate with small performance on the last day of the project. The duration of each workshop is 2 hours. You do not have to be professional, the most important that it is enjoyable and fun Besides, each volunteer has to run one cultural night to present own country and culture to others. After placement volunteers will be contacted by organizers to get involved and guided in the preparation of the program before arrival to Estonia. Volunteer will work in partnership with professional local educators and youth workers - 25 staff members.",
+"eta_max": 48,
+"eta_min": 18,
+"fine": "2026-08-26",
+"inizio": "2026-08-18",
+"lastmod": "2026-06-22T15:41:33.000Z",
+"luogo": "LOKSA",
+"paese": "EE",
+"paese_nome": "ESTONIA",
+"temi": [
+"KIDS"
+],
+"titolo": "VIHASOO YOUTH CAMP"
+},
 "https://volontariato.legambiente.it/campi-di-volontariato/volontar-per-lo-youth-climate-meeting-2026": {
 "fine": "2026-05-25",
 "lastmod": "2026-06-24T11:50:37.000Z",
@@ -4348,9 +5059,24 @@
 "lastmod": "2026-07-15T07:14:01.000Z",
 "paese": null
 },
+"https://volontariato.legambiente.it/campi-di-volontariato/volunteer-coordinator": {
+"fine": "2027-01-04",
+"lastmod": "2026-06-22T15:42:26.000Z",
+"paese": null
+},
 "https://volontariato.legambiente.it/campi-di-volontariato/volunteer-in-a-cloud-forest": {
 "fine": "2026-12-31",
 "lastmod": "2026-10-21T08:58:31.000Z",
+"paese": null
+},
+"https://volontariato.legambiente.it/campi-di-volontariato/volunteering-weekend-in-slatinka-i": {
+"fine": "2026-08-02",
+"lastmod": "2026-06-22T15:43:01.000Z",
+"paese": null
+},
+"https://volontariato.legambiente.it/campi-di-volontariato/volunteering-weekend-in-slatinka-ii": {
+"fine": "2026-10-18",
+"lastmod": "2026-06-22T15:43:00.000Z",
 "paese": null
 },
 "https://volontariato.legambiente.it/campi-di-volontariato/voluntribe-community-action-movement": {
@@ -4361,6 +5087,16 @@
 "https://volontariato.legambiente.it/campi-di-volontariato/waldstock-music-festival-pegnitz": {
 "fine": "2026-07-13",
 "lastmod": "2026-08-26T13:33:18.000Z",
+"paese": null
+},
+"https://volontariato.legambiente.it/campi-di-volontariato/waste-management": {
+"fine": "2027-01-04",
+"lastmod": "2026-06-22T15:43:38.000Z",
+"paese": null
+},
+"https://volontariato.legambiente.it/campi-di-volontariato/water-research": {
+"fine": "2027-01-04",
+"lastmod": "2026-06-22T15:43:37.000Z",
 "paese": null
 },
 "https://volontariato.legambiente.it/campi-di-volontariato/waterfall-in-provence": {
